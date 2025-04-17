@@ -1,0 +1,429 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.admission-cancellation-policy-container {
+  position: absolute;
+  inset: 0;
+}
+.admission-cancellation-policy-rect {
+  background: #d9d9d9;
+  border-radius: 50px;
+  width: 1228px;
+  height: 770px;
+  position: absolute;
+  left: calc(50% - 614px);
+  top: 89px;
+}
+.admission-cancellation-policy-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InknutAntiqua-SemiBold", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  left: 172px;
+  top: 132px;
+  width: 708px;
+  height: 87px;
+}
+.admission-cancellation-policy-image {
+  border-radius: 50px;
+  width: 452px;
+  height: 423px;
+  position: absolute;
+  left: 172px;
+  top: 301px;
+  object-fit: cover;
+}
+.admission-cancellation-policy-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 540px;
+  height: 0px;
+  position: absolute;
+  left: 188px;
+  top: 190px;
+}
+.policy-1 {
+  width: 550px;
+  height: 55px;
+  position: static;
+}
+.policy-icon-1 {
+  border-radius: 50%;
+  width: 52px;
+  height: 48px;
+  position: absolute;
+  left: 668px;
+  top: 277px;
+  object-fit: cover;
+}
+.policy-info-1 {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 741px;
+  top: 281px;
+  width: 477px;
+  height: 51px;
+}
+.policy-2 {
+  width: 550px;
+  height: 130px;
+  position: static;
+}
+.policy-icon-2 {
+  border-radius: 50%;
+  width: 52px;
+  height: 48px;
+  position: absolute;
+  left: 668px;
+  top: 382px;
+  object-fit: cover;
+}
+.policy-info-2 {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 741px;
+  top: 386px;
+  width: 477px;
+  height: 126px;
+}
+.policy-3 {
+  width: 565px;
+  height: 103px;
+  position: static;
+}
+.policy-icon-3 {
+  border-radius: 50%;
+  width: 52px;
+  height: 48px;
+  position: absolute;
+  left: 668px;
+  top: 558px;
+  object-fit: cover;
+}
+.policy-info-3 {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 741px;
+  top: 562px;
+  width: 492px;
+  height: 99px;
+}
+.policy-4 {
+  width: 550px;
+  height: 51px;
+  position: static;
+}
+.policy-icon-4 {
+  border-radius: 50%;
+  width: 52px;
+  height: 48px;
+  position: absolute;
+  left: 668px;
+  top: 711px;
+  object-fit: cover;
+}
+.policy-info-4 {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 741px;
+  top: 711px;
+  width: 477px;
+  height: 51px;
+}
+
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+.admission-cancellation-policy-rect {
+  background: #d9d9d9;
+  border-radius: 50px;
+  width: 650px;
+  height: 900px;
+  position: absolute;
+  left: 50px;
+  top: 89px;
+}
+.admission-cancellation-policy-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InknutAntiqua-SemiBold", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  left: 150px;
+  top: 125px;
+  width: 708px;
+  height: 87px;
+}
+.admission-cancellation-policy-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 415px;
+  height: 0px;
+  position: absolute;
+  left: 175px;
+  top: 170px;
+}
+.admission-cancellation-policy-image {
+  border-radius: 50px;
+  width: 380px;
+  height: 350px;
+  position: absolute;
+  left: 190px;
+  top: 205px;
+  object-fit: cover;
+}
+.policy-icon-1 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 95px;
+  top: 585px;
+  object-fit: cover;
+}
+.policy-info-1 {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 160px;
+  top: 585px;
+  width: 477px;
+  height: 51px;
+}
+
+.policy-icon-2 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 95px;
+  top: 660px;
+  object-fit: cover;
+}
+.policy-info-2 {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 160px;
+  top: 660px;
+  width: 477px;
+  height: 51px;
+}
+
+.policy-icon-3 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 95px;
+  top: 785px;
+  object-fit: cover;
+}
+.policy-info-3 {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 160px;
+  top: 785px;
+  width: 477px;
+  height: 51px;
+}
+
+.policy-icon-4 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 95px;
+  top: 885px;
+  object-fit: cover;
+}
+.policy-info-4 {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 160px;
+  top: 885px;
+  width: 477px;
+  height: 51px; 
+}
+}
+
+
+
+@media (max-width: 370px) {
+.admission-cancellation-policy-rect {
+  background: #d9d9d9;
+  border-radius: 20px;
+  width: 300px;
+  height: 830px;
+  position: absolute;
+  left: 30px;
+  top: 89px;
+}
+.admission-cancellation-policy-image {
+  border-radius: 50px;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 55px;
+  top: 205px;
+  object-fit: cover;
+}
+.admission-cancellation-policy-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InknutAntiqua-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 70px;
+  top: 125px;
+  width: 280px;
+  height: 87px;
+}
+.admission-cancellation-policy-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 205px;
+  height: 0px;
+  position: absolute;
+  left: 80px;
+  top: 180px;
+}
+.policy-icon-1 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 55px;
+  top: 480px;
+  object-fit: cover;
+}
+.policy-info-1 {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 90px;
+  top: 480px;
+  width: 230px;
+  height: 51px;
+}
+
+.policy-icon-2 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 55px;
+  top: 560px;
+  object-fit: cover;
+}
+.policy-info-2 {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 90px;
+  top: 560px;
+  width: 230px;
+  height: 51px;
+}
+
+.policy-icon-3 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 55px;
+  top: 705px;
+  object-fit: cover;
+}
+ .policy-info-3 {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 90px;
+  top: 705px;
+  width: 230px;
+  height: 51px;
+}
+
+.policy-icon-4 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 55px;
+  top: 835px;
+  object-fit: cover;
+}
+.policy-info-4 {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 90px;
+  top: 835px;
+  width: 230px;
+  height: 51px; 
+}
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery.min.js"></script>
+    <title>Course Listings</title>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f9fc;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #34495e;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px; /* Adds space between the cards */
+        }
+        .course-col {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+            overflow: hidden; /* Ensures rounded corners are maintained */
+        }
+        .course-col:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+        .course-col h1 {
+            font-size: 1.6rem;
+            color: #2980b9;
+            margin-bottom: 10px;
+        }
+        h2, h3 {
+            color: #7f8c8d;
+            margin: 5px 0;
+        }
+        p {
+            color: #34495e;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .category-title {
+            width: 100%;
+            background-color: #2980b9;
+            color: white;
+            padding: 10px;
+            border-radius: 15px 15px 0 0;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+        @media (max-width: 768px) {
+            .row {
+                flex-direction: column; /* Stack cards on smaller screens */
+                align-items: center; /* Center cards */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="courses"></div> 
+    <!-- Courses will be displayed here -->
+    
+    <script>
+        $(document).ready(function(){
+            $.ajax({
+                url: "ajax-page.php",
+                method: "POST",
+                data: { opr: "courses" },
+                success: function(response) {
+                    $("#courses").html(response);
+                },
+                error: function(xhr, status, error) {
+                    console.error("AJAX Error: ", status, error);
+                    alert("An error occurred: " + error);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

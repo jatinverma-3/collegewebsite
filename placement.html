@@ -1,0 +1,234 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery.min.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f9;
+        }
+        header {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .placement-col {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .placement-col:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .placement-col h1 {
+            font-size: 1.8em;
+            color: #007bff;
+            margin: 0;
+        }
+        .placement-col h3, .placement-col h4 {
+            margin: 5px 0;
+            color: #555;
+        }
+        .placement-col h2 {
+            margin: 5px 0;
+            color: #333;
+        }
+        .placement-col p {
+            color: #777;
+            margin: 5px 0;
+        }
+        @media (max-width: 768px) {
+            .placement-col {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Placement Opportunities</h1>
+    </header>
+    
+    <div class="container">
+        <div id="placements"></div> 
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $.ajax({
+                url: "ajax-placement-page.php", // Your PHP file to fetch placements
+                method: "POST",
+                data: { opr: "placements" },
+                success: function(response) {
+                    $("#placements").html(response);
+                },
+                error: function(xhr, status, error) {
+                    console.error("AJAX Error: ", status, error);
+                    alert("An error occurred: " + error);
+                }
+            });
+        });
+    </script>
+</body>
+</html>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery.min.js"></script>
+    <style>
+                body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f9;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background: linear-gradient(90deg, #007bff, #00b3ff);
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        /* Placement Info Cards */
+        .placement-col {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .placement-col:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .placement-col h1 {
+            font-size: 2rem;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .placement-col h2 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .placement-col h3,
+        .placement-col h4 {
+            color: #555;
+            margin: 5px 0;
+        }
+
+        .placement-col p {
+            font-size: 1rem;
+            color: #777;
+            line-height: 1.6;
+        }
+
+        /* Button Style */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-weight: 600;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .placement-col {
+                padding: 15px;
+                margin: 10px 0;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="placements"></div> <!-- Placements will be displayed here -->
+    
+    <script>
+        $(document).ready(function(){
+            $.ajax({
+                url: "ajax-placement-page.php",
+                method: "POST",
+                data: { opr: "placements" },
+                success: function(response) {
+                    $("#placements").html(response);
+                },
+                error: function(xhr, status, error) {
+                    console.error("AJAX Error: ", status, error);
+                    alert("An error occurred: " + error);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,680 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #ffffff;
+  height: 2000px;
+  position: relative;
+  overflow: hidden;
+}
+.intro-container {
+  position: absolute;
+  inset: 0;
+}
+.introduction-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 65px;
+  top: 59px;
+  width: 244px;
+  height: 63px;
+}
+.intro-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 73px;
+  top: 140px;
+  width: 795px;
+  height: 273px;
+}
+.quality-assurance-image {
+  width: 421px;
+  height: 383px;
+  position: absolute;
+  left: 907px;
+  top: 59px;
+  object-fit: cover;
+}
+.intro-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 218px;
+  height: 0px;
+  position: absolute;
+  left: 75px;
+  top: 111.51px;
+}
+.quality-policy-container {
+  position: absolute;
+  inset: 0;
+}
+.quality-policy-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 65px;
+  top: 548px;
+  width: 291px;
+  height: 63px;
+}
+.quality-policy-info {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  position: absolute;
+  left: 65px;
+  top: 643px;
+  width: 458px;
+  height: 225px;
+}
+.quality-policy-rectangle-1 {
+  background: #d9d9d9;
+  border-radius: 35px;
+  width: 805px;
+  height: 357px;
+  position: absolute;
+  left: 523px;
+  top: 551px;
+}
+.quality-policy-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 248px;
+  height: 0px;
+  position: absolute;
+  left: 75px;
+  top: 607px;
+}
+.primary-intent-of-iqac-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  position: absolute;
+  left: 572px;
+  top: 584px;
+  width: 678px;
+  height: 45px;
+}
+.according-to-naac-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  position: absolute;
+  left: 593px;
+  top: 654px;
+  width: 258px;
+  height: 44px;
+}
+.naac-point-1 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  position: absolute;
+  left: 593px;
+  top: 709px;
+  width: 651px;
+  height: 66px;
+}
+.naac-point-2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  position: absolute;
+  left: 593px;
+  top: 787px;
+  width: 646px;
+  height: 69px;
+}
+.primary-intent-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 645px;
+  height: 0px;
+  position: absolute;
+  left: 587px;
+  top: 626.5px;
+}
+.certificate-accreditation-container {
+  position: absolute;
+  inset: 0;
+}
+.certificate-accreditation-container-1 {
+  width: 449px;
+  height: 684px;
+  position: static;
+}
+.certificate-accreditation-text-1 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 144px;
+  top: 1040px;
+  width: 449px;
+  height: 46px;
+}
+.certificate-accreditation-image-1 {
+  width: 418px;
+  height: 591px;
+  position: absolute;
+  left: 175px;
+  top: 1133px;
+  object-fit: cover;
+}
+.certificate-accreditation-line-1 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 397.06px;
+  height: 0px;
+  position: absolute;
+  left: 162.97px;
+  top: 1089.5px;
+}
+.certificate-accreditation-text-12 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 779px;
+  top: 1040px;
+  width: 449px;
+  height: 46px;
+}
+.certificate-accreditation-image-12 {
+  width: 418px;
+  height: 591px;
+  position: absolute;
+  left: 810px;
+  top: 1133px;
+  object-fit: cover;
+}
+.certificate-accreditation-line-2 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 384px;
+  height: 0px;
+  position: absolute;
+  left: 808px;
+  top: 1086.5px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .introduction-text {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 45px;
+    top: 45px;
+    width: 244px;
+    height: 63px;
+}
+.intro-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 155px;
+  height: 0px;
+  position: absolute;
+  left: 55px;
+  top: 85px;
+}
+.intro-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 40px;
+  top: 115px;
+  width: 420px;
+  height: 273px;
+}
+.quality-assurance-image {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 475px;
+  top: 120px;
+  object-fit: cover;
+}
+.quality-policy-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 35px;
+  top: 480px;
+  width: 291px;
+  height: 63px;
+}
+.quality-policy-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 165px;
+  height: 0px;
+  position: absolute;
+  left: 52px;
+  top: 522px;
+}
+.quality-policy-info {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  position: absolute;
+  left: 40px;
+  top: 545px;
+  width: 690px;
+  height: 225px;
+}
+.quality-policy-rectangle-1 {
+  background: #d9d9d9;
+  border-radius: 35px;
+  width: 705px;
+  height: 260px;
+  position: absolute;
+  left: 40px;
+  top: 715px;
+}
+.primary-intent-of-iqac-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  position: absolute;
+  left: 60px;
+  top: 744px;
+  width: 678px;
+  height: 45px;
+}
+.primary-intent-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 495px;
+  height: 0px;
+  position: absolute;
+  left: 75px;
+  top: 780px;
+}
+.according-to-naac-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  position: absolute;
+  left: 80px;
+  top: 795px;
+  width: 258px;
+  height: 44px;
+}
+.naac-point-1 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  position: absolute;
+  left: 85px;
+  top: 840px;
+  width: 651px;
+  height: 66px;
+}
+.naac-point-2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  position: absolute;
+  left: 85px;
+  top: 890px;
+  width: 646px;
+  height: 69px;
+}
+.certificate-accreditation-text-1 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 44px;
+  top: 1030px;
+  width: 449px;
+  height: 46px;
+}
+.certificate-accreditation-line-1 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+  left: 62px;
+  top: 1065px;
+}
+.certificate-accreditation-image-1 {
+  width: 350px;
+  height: 450px;
+  position: absolute;
+  left: 30px;
+  top: 1120px;
+  object-fit: cover;
+}
+.certificate-accreditation-text-12 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 420px;
+  top: 1030px;
+  width: 449px;
+  height: 46px;
+}
+.certificate-accreditation-line-2 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 270px;
+  height: 0px;
+  position: absolute;
+  left: 436px;
+  top: 1065px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.certificate-accreditation-image-12 {
+  width: 350px;
+  height: 450px;
+  position: absolute;
+  left: 390px;
+  top: 1120px;
+  object-fit: cover;
+}
+} 
+
+
+
+@media (max-width: 370px) {
+.introduction-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 105px;
+  top: 40px;
+  width: 244px;
+  height: 63px;
+}
+.intro-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 125px;
+  height: 0px;
+  position: absolute;
+  left: 112px;
+  top: 70px;
+}
+.intro-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 35px;
+  top: 85px;
+  width: 300px;
+  height: 273px;
+}
+.quality-assurance-image {
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  left: 75px;
+  top: 315px;
+  object-fit: cover;
+}
+.quality-policy-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 85px;
+  top: 490px;
+  width: 291px;
+  height: 63px;
+}
+.quality-policy-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 130px;
+  height: 0px;
+  position: absolute;
+  left: 100px;
+  top: 525px;
+}
+.quality-policy-info {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  position: absolute;
+  left: 42px;
+  top: 540px;
+  width: 288px;
+  height: 225px;
+}
+.quality-policy-rectangle-1 {
+  background: #d9d9d9;
+  border-radius: 35px;
+  width: 330px;
+  height: 230px;
+  position: absolute;
+  left: 15px;
+  top: 730px;
+}
+.primary-intent-of-iqac-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  position: absolute;
+  left: 30px;
+  top: 750px;
+  width: 678px;
+  height: 45px;
+}
+.primary-intent-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 287px;
+  height: 0px;
+  position: absolute;
+  left: 40px;
+  top: 773px;
+}
+.according-to-naac-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  position: absolute;
+  left: 40px;
+  top: 790px;
+  width: 258px;
+  height: 44px;
+}
+.naac-point-1 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  position: absolute;
+  left: 40px;
+  top: 825px;
+  width: 257px;
+  height: 66px;
+}
+.naac-point-2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  position: absolute;
+  left: 40px;
+  top: 885px;
+  width: 275px;
+  height: 69px;
+}
+.certificate-accreditation-text-1 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 65px;
+  top: 1015px;
+  width: 449px;
+  height: 46px;
+}
+.certificate-accreditation-line-1 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 210px;
+  height: 0px;
+  position: absolute;
+  left: 75px;
+  top: 1041px;
+}
+.certificate-accreditation-image-1 {
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  left: 30px;
+  top: 1070px;
+  object-fit: cover;
+}
+.certificate-accreditation-text-12 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 65px;
+  top: 1480px;
+  width: 449px;
+  height: 46px;
+}
+.certificate-accreditation-line-2 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 210px;
+  height: 0px;
+  position: absolute;
+  left: 75px;
+  top: 1508px;
+}
+.certificate-accreditation-image-12 {
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  left: 30px;
+  top: 1550px;
+  object-fit: cover;
+}
+} 

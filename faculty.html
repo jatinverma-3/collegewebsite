@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Members</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        #courses {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+            gap: 20px; /* Spacing between faculty cards */
+        }
+
+        .faculty-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 12px; /* Slightly more rounded corners */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.2s; /* Smooth transition for hover effect */
+            padding: 20px; /* Add padding for spacing */
+        }
+
+        .faculty-card:hover {
+            transform: translateY(-5px); /* Elevate card on hover */
+        }
+
+        .faculty-card img {
+            width: 100px; /* Set fixed width for image */
+            height: 100px; /* Set fixed height for image */
+            border-radius: 50%; /* Circular image */
+            object-fit: cover; /* Maintain aspect ratio */
+            border: 2px solid #ddd; /* Border around the image */
+        }
+
+        .faculty-card h2 {
+            margin: 15px 0 5px;
+            font-size: 1.4em;
+            color: #2c3e50;
+        }
+
+        .faculty-card p {
+            margin: 5px 0;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+    </style>
+
+
+
+
+
+
+<div id="courses"></div> <!-- Courses will be displayed here -->
+
+<script>
+    $(document).ready(function() {
+        $.ajax({
+            url: "ajax-faculty-page.php",
+            method: "POST",
+            data: { opr: "faculty" },
+            success: function(response) {
+                $("#courses").html(response); // Corrected to use #courses
+            },
+            error: function(xhr, status, error) {
+                console.error("AJAX Error: ", status, error);
+                alert("An error occurred: " + error);
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
+

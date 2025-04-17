@@ -1,0 +1,968 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #f2e8cf;
+  height: 3250px;
+  position: relative;
+  overflow: hidden;
+}
+.history-box {
+  position: absolute;
+  inset: 0;
+}
+.brief-rect {
+  background: #e0fbfc;
+  border-radius: 81.5px;
+  width: 666px;
+  height: 99px;
+  position: absolute;
+  left: calc(50% - 333px);
+  top: 54px;
+}
+.brief-about-college {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSerif-Bold", sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 209px);
+  top: 75px;
+  height: 49px;
+}
+.history-container {
+  position: absolute;
+  inset: 0;
+}
+.history-rect {
+  background: #dee2e6;
+  border-radius: 20px;
+  width: 1064px;
+  height: 550px;
+  position: absolute;
+  left: 71px;
+  top: 247px;
+}
+.history-image {
+  border-radius: 20px;
+  width: 513px;
+  height: 346px;
+  position: absolute;
+  left: 856px;
+  top: 521px;
+  object-fit: cover;
+}
+.history-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSerif-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 115px;
+  top: 273px;
+  width: 186px;
+  height: 57px;
+}
+.history-message {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSerif-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 113px;
+  top: 341px;
+  width: 733px;
+  height: 442px;
+}
+.history-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #d62828;
+  border-width: 3px 0 0 0;
+  width: 104.04px;
+  height: 0px;
+  position: absolute;
+  left: 121.98px;
+  top: 327.5px;
+}
+.history-ellipse {
+  background: #bb9457;
+  border-radius: 50%;
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  left: 593px;
+  top: 224px;
+}
+.about-college-container {
+  position: absolute;
+  inset: 0;
+}
+.about-college-rect {
+  background: #dee2e6;
+  border-radius: 20px;
+  width: 1064px;
+  height: 550px;
+  position: absolute;
+  left: 305px;
+  top: 995px;
+}
+.about-college-image {
+  border-radius: 20px;
+  width: 513px;
+  height: 346px;
+  position: absolute;
+  left: 71px;
+  top: 1269px;
+  object-fit: cover;
+}
+.about-college-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSerif-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 623px;
+  top: 1020px;
+  width: 362px;
+  height: 55px;
+}
+.about-college-message {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSerif-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 623px;
+  top: 1097px;
+  width: 726px;
+  height: 461px;
+}
+.about-college-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #d62828;
+  border-width: 3px 0 0 0;
+  width: 300px;
+  height: 0px;
+  position: absolute;
+  left: 636.98px;
+  top: 1075.5px;
+}
+.about-college-ellipse {
+  background: #bb9457;
+  border-radius: 50%;
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  left: 824px;
+  top: 967px;
+}
+.sir-ness-wadia-container {
+  position: absolute;
+  inset: 0;
+}
+.sir-ness-wadia-rect {
+  background: #dee2e6;
+  border-radius: 20px;
+  width: 1064px;
+  height: 550px;
+  position: absolute;
+  left: 71px;
+  top: 1743px;
+}
+.sir-ness-wadia-image {
+  border-radius: 20px;
+  width: 384px;
+  height: 458px;
+  position: absolute;
+  left: 892px;
+  top: 1949px;
+  object-fit: cover;
+}
+.sir-ness-wadia-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSerif-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 115px;
+  top: 1769px;
+  height: 55px;
+}
+.sir-ness-wadia-message {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSerif-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 113px;
+  top: 1857px;
+  width: 755px;
+  height: 440px;
+}
+.sir-ness-wadia-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #d62828;
+  border-width: 3px 0 0 0;
+  width: 365px;
+  height: 0px;
+  position: absolute;
+  left: 133px;
+  top: 1823px;
+}
+.sir-ness-wadia-ellipse {
+  background: #bb9457;
+  border-radius: 50%;
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  left: 534px;
+  top: 1716px;
+}
+.learning-environment-college-container {
+  position: absolute;
+  inset: 0;
+}
+.learning-environment-college-rect {
+  background: #dee2e6;
+  border-radius: 20px;
+  width: 1064px;
+  height: 550px;
+  position: absolute;
+  left: 305px;
+  top: 2549px;
+}
+.learning-environment-image {
+  border-radius: 20px;
+  width: 513px;
+  height: 346px;
+  position: absolute;
+  left: 71px;
+  top: 2823px;
+  object-fit: cover;
+}
+.learning-environment-college-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSerif-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 623px;
+  top: 2574px;
+  width: 708px;
+  height: 56px;
+}
+.learning-environment-college-message {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSerif-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 610px;
+  top: 2647px;
+  width: 750px;
+  height: 443px;
+}
+.learning-environment-college-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #d62828;
+  border-width: 3px 0 0 0;
+  width: 650px;
+  height: 0px;
+  position: absolute;
+  left: 636.98px;
+  top: 2629.5px;
+}
+.learning-environment-college-ellipse {
+  background: #bb9457;
+  border-radius: 50%;
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  left: 815px;
+  top: 2524px;
+}
+
+
+/* Media Queries */
+@media (max-width: 1350px) {
+  .brief-rect {
+    width: 615px;
+    height: 85px;
+    left: 280px;
+    top: 60px;
+  }
+  .brief-about-college {
+    font-size: 40px;
+    font-weight: 700;
+    left: 402px;
+    top: 80px;
+  }
+
+  .history-rect {
+    width: 875px;
+    height: 460px;
+    left: 45px;
+    top: 245px;
+  }
+  .history-image {
+    width: 290px;
+    height: 275px;
+    left: 825px;
+    top: 500px;
+  }
+  .history-text {
+    font-size: 36px;
+    left: 112px;
+    top: 273px;
+  }
+  .history-message {
+    font-size: 26px;
+    left: 110px;
+    top: 345px;
+    width: 685px;
+    height: 442px;
+  }
+  .history-line {
+    width: 95px;
+    left: 125px;
+    top: 322.5px;
+  }
+  .history-ellipse {
+    width: 40px;
+    height: 40px;
+    left: 460px;
+    top: 224px;
+  }
+
+  .about-college-rect {
+    width: 825px;
+    height: 480px;
+    left: 305px;
+    top: 935px;
+  }
+  .about-college-image {
+    width: 370px;
+    height: 346px;
+    left: 75px;
+    top: 1210px;
+  }
+  .about-college-text {
+    font-size: 38px;
+    left: 585px;
+    top: 985px;
+  }
+  .about-college-message {
+    font-size: 24px;
+    left: 480px;
+    top: 1065px;
+    width: 630px;
+    height: 461px;
+  }
+  .about-college-line {
+    width: 280px;
+    left: 610px;
+    top: 1040px;
+  }
+  
+  .about-college-ellipse {
+    width: 40px;
+    height: 40px;
+    left: 730px;
+    top: 910px;
+  }
+  .sir-ness-wadia-rect {
+    width: 840px;
+    height: 550px;
+    left: 70px;
+    top: 1705px;
+  }
+  .sir-ness-wadia-image {
+    width: 355px;
+    height: 376px;
+    left: 745px;
+    top: 2000px;
+  }
+  .sir-ness-wadia-text {
+    font-size: 36px;
+    left: 105px;
+    top: 1740px;
+  }
+  .sir-ness-wadia-message {
+    font-size: 26px;
+    font-weight: 400;
+    left: 108px;
+    top: 1820px;
+    width: 595px;
+    height: 440px;
+  }
+  .sir-ness-wadia-line {
+    width: 345px;
+    height: 0px;
+    left: 119px;
+    top: 1788px;
+  }
+  .sir-ness-wadia-ellipse {
+    width: 40px;
+    height: 40px;
+    left: 485px;
+    top: 1680px;
+  }
+
+  .learning-environment-college-rect {
+    width: 800px;
+    height: 525px;
+    left: 305px;
+    top: 2546px;
+  }
+  .learning-environment-image {
+    width: 400px;
+    height: 315px;
+    left: 70px;
+    top: 2860px;
+  }
+  .learning-environment-college-text {
+    font-size: 36px;
+    left: 410px;
+    top: 2574px;
+    width: 708px;
+    height: 56px;
+  }
+  .learning-environment-college-message {
+    font-size: 24px;
+    left: 507px;
+    top: 2647px;
+    width: 555px;
+    height: 445px;
+  }
+  .learning-environment-college-line {
+    width: 600px;
+    height: 0px;
+    left: 422px;
+    top: 2625px;
+  }
+  .learning-environment-college-ellipse {
+    width: 40px;
+    height: 40px;
+    left: 720px;
+    top: 2520px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .brief-rect {
+    width: 535px;
+    height: 85px;
+    left: 157px;
+    top: 60px;
+  }
+  .brief-about-college {
+    font-size: 38px;
+    font-weight: 700;
+    left: 245px;
+    top: 80px;
+  }
+  .history-rect {
+    width: 675px;
+    height: 475px;
+    left: 30px;
+    top: 247px;
+  }
+  .history-image {
+    width: 290px;
+    height: 315px;
+    left: 555px;
+    top: 490px;
+  }
+  .history-text {
+    font-size: 30px;
+    left: 65px;
+    top: 280px;
+  }
+  .history-message {
+    font-size: 24px;
+    left: 63px;
+    top: 341px;
+    width: 485px;
+    height: 442px;
+  }
+  .history-line {
+    width: 80px;
+    left: 75px;
+    top: 322px;
+  }
+  .history-ellipse {
+    width: 30px;
+    height: 30px;
+    left: 380px;
+    top: 230px;
+  }  
+
+  .about-college-rect {
+    width: 570px;
+    height: 510px;
+    left: 280px;
+    top: 955px;
+  }
+  .about-college-image {
+    width: 325px;
+    height: 315px;
+    left: 35px;
+    top: 1230px;
+  }
+  .about-college-text {
+    font-size: 32px;
+    left: 395px;
+    top: 985px;
+    width: 362px;
+    height: 55px;
+  }
+  .about-college-message {
+    font-size: 22px;
+    left: 381px;
+    top: 1045px;
+    width: 429px;
+    height: 461px;
+  }
+  .about-college-line {
+    width: 250px;
+    height: 0px;
+    left: 409px;
+    top: 1030px;
+
+  }
+  .about-college-ellipse {
+    width: 30px;
+    height: 30px;
+    left: 560px;
+    top: 940px;
+  }
+
+  .sir-ness-wadia-rect {
+    width: 680px;
+    height: 475px;
+    left: 32px;
+    top: 1675px;
+  }
+  .sir-ness-wadia-image {
+    width: 330px;
+    height: 303px;
+    left: 517px;
+    top: 1931px;
+  }
+  .sir-ness-wadia-text {
+    font-size: 34px;
+    font-weight: 700;
+    left: 75px;
+    top: 1710px;
+    height: 55px;
+  }
+  .sir-ness-wadia-message {
+    font-size: 22px;
+    font-weight: 400;
+    left: 56px;
+    top: 1775px;
+    width: 456px;
+    height: 440px;
+  }
+  .sir-ness-wadia-line {
+    width: 300px;
+    height: 0px;
+    left: 103px;
+    top: 1753px;
+  }
+  .sir-ness-wadia-ellipse {
+    width: 30px;
+    height: 30px;
+    left: 383px;
+    top: 1662px;
+  }
+
+  .learning-environment-college-rect {
+    width: 625px;
+    height: 490px;
+    left: 215px;
+    top: 2382px;
+  }
+  .learning-environment-image {
+    width: 333px;
+    height: 300px;
+    left: 25px;
+    top: 2688px;
+  }
+  .learning-environment-college-text {
+    font-size: 30px;
+    left: 275px;
+    top: 2410px;
+    width: 708px;
+    height: 56px;
+  }
+  .learning-environment-college-message {
+    font-size: 22px;
+    left: 377px;
+    top: 2475px;
+    width: 439px;
+    height: 443px;
+  }
+  .learning-environment-college-line {
+    width: 485px;
+    height: 0px;
+    left: 298px;
+    top: 2455px;
+  }
+  .learning-environment-college-ellipse {
+    width: 30px;
+    height: 30px;
+    left: 538px;
+    top: 2368px;
+  }
+}
+
+@media (max-width: 768px) {
+  .brief-rect {
+    width: 475px;
+    height: 65px;
+    left: 88px;
+    top: 57px;
+  }
+  .brief-about-college {
+    font-size: 34px;
+    font-weight: 700;
+    left: 175px;
+    top: 70px;
+  }
+  .history-rect {
+    width: 555px;
+    height: 350px;
+    left: 50px;
+    top: 210px;
+  }
+  .history-image {
+    width: 295px;
+    height: 230px;
+    left: 175px;
+    top: 495px;
+  }
+  .history-text {
+    font-size: 26px;
+    left: 85px;
+    top: 232px;
+  }
+  .history-message {
+    font-size: 18px;
+    left: 86px;
+    top: 283px;
+    width: 490px;
+    height: 442px
+  }
+  .history-line {
+    width: 70px;
+    left: 93px;
+    top: 270px;
+  }
+  .history-ellipse {
+    width: 25px;
+    height: 25px;
+    left: 325px;
+    top: 198px;
+  }
+
+  .about-college-rect {
+    width: 560px;
+    height: 415px;
+    left: 50px;
+    top: 995px;
+  }
+  .about-college-image {
+    width: 275px;
+    height: 225px;
+    left: 185px;
+    top: 1300px;
+  }
+  .about-college-text {
+    font-size: 30px;
+    left: 80px;
+    top: 1020px;
+    width: 362px;
+    height: 55px;
+  }
+  .about-college-message {
+    font-size: 18px;
+    left: 80px;
+    top: 1080px;
+    width: 530px;
+    height: 461px;
+  }
+  .about-college-line {
+    width: 225px;
+    height: 0px;
+    left: 92px;
+    top: 1061px;
+  }
+  .about-college-ellipse {
+    width: 49px;
+    height: 49px;
+    left: 824px;
+    top: 967px;
+  }
+  .sir-ness-wadia-rect {
+    width: 560px;
+    height: 435px;
+    left: 50px;
+    top: 1743px;
+  }
+  .sir-ness-wadia-image {
+    width: 285px;
+    height: 238px;
+    left: 190px;
+    top: 2096px;
+  }
+  .sir-ness-wadia-text {
+    font-size: 30px;
+    font-weight: 700;
+    left: 88px;
+    top: 1770px;
+    height: 55px;
+  }
+  .sir-ness-wadia-message {
+    font-size: 20px;
+    font-weight: 400;
+    left: 80px;
+    top: 1825px;
+    width: 500px;
+    height: 440px;
+  }
+  .sir-ness-wadia-line {
+    width: 280px;
+    height: 0px;
+    left: 100px;
+    top: 1810px;
+  }
+  .sir-ness-wadia-ellipse {
+    width: 30px;
+    height: 30px;
+    left: 330px;
+    top: 1727px;
+  }
+
+  .learning-environment-college-rect {
+    width: 595px;
+    height: 450px;
+    left: 35px;
+    top: 2500px;
+  }
+  .learning-environment-image {
+    width: 313px;
+    height: 235px;
+    left: 175px;
+    top: 2855px;
+  }
+  .learning-environment-college-text {
+    font-size: 30px;
+    left: 60px;
+    top: 2530px;
+    width: 708px;
+    height: 56px;
+  }
+  .learning-environment-college-message {
+    font-size: 20px;
+    left: 55px;
+    top: 2595px;
+    width: 555px;
+    height: 443px;
+  }
+  .learning-environment-college-line {
+    width: 500px;
+    height: 0px;
+    left: 70px;
+    top: 2574px;
+  }
+  .learning-environment-college-ellipse {
+    width: 49px;
+    height: 49px;
+    left: 815px;
+    top: 2524px;
+  }
+  
+}
+
+@media (max-width: 576px) {
+  .brief-rect {
+    width: 270px;
+    height: 50px;
+    left: 85px;
+    top: 47px;
+  }
+  .brief-about-college {
+    font-size: 22px;
+    font-weight: 700;
+    left: 118px;
+    top: 59px;
+  }
+  .history-rect {
+    width: 395px;
+    height: 325px;
+    left: 30px;
+    top: 165px;
+  }
+  .history-image {
+    width: 200px;
+    height: 150px;
+    left: 130px;
+    top: 445px;
+  }
+  .history-text {
+    font-size: 22px;
+    left: 195px;
+    top: 185px;
+  }
+  .history-message {
+    font-size: 15px;
+    left: 55px;
+    top: 235px;
+    width: 365px;
+    height: 442px;
+  }
+  .history-line {
+    width: 50px;
+    left: 208px;
+    top: 215px;
+  }
+  .history-ellipse {
+    width: 20px;
+    height: 20px;
+    left: 225px;
+    top: 155px;
+
+  }
+
+  .about-college-rect {
+    width: 395px;
+    height: 325px;
+    left: 30px;
+    top: 680px;
+  }
+  .about-college-image {
+    width: 230px;
+    height: 175px;
+    left: 120px;
+    top: 955px;
+  }
+  .about-college-text {
+    font-size: 22px;
+    left: 141px;
+    top: 697px;
+  }
+  .about-college-message {
+    font-size: 15px;
+    left: 45px;
+    top: 745px;
+    width: 370px;
+    height: 461px;
+  }
+  .about-college-line {
+    width: 160px;
+    height: 0px;
+    left: 155px;
+    top: 731px;
+
+  }
+  .about-college-ellipse {
+    width: 20px;
+    height: 20px;
+    left: 225px;
+    top: 670px;
+  }
+
+  .sir-ness-wadia-rect {
+    width: 395px;
+    height: 360px;
+    left: 30px;
+    top: 1250px;
+  }
+  .sir-ness-wadia-image {
+    width: 235px;
+    height: 185px;
+    left: 115px;
+    top: 1550px;
+  }
+  .sir-ness-wadia-text {
+    font-size: 22px;
+    font-weight: 700;
+    left: 107px;
+    top: 1270px;
+    height: 55px;
+  }
+  .sir-ness-wadia-message {
+    font-size: 15px;
+    font-weight: 400;
+    left: 50px;
+    top: 1315px;
+    width: 355px;
+    height: 440px;
+  }
+  .sir-ness-wadia-line {
+    width: 200px;
+    height: 0px;
+    left: 122px;
+    top: 1303px;
+  }
+  .sir-ness-wadia-ellipse {
+    width: 20px;
+    height: 20px;
+    left: 223px;
+    top: 1240px;
+  }
+
+  .learning-environment-college-rect {
+    width: 395px;
+    height: 325px;
+    left: 30px;
+    top: 1850px;
+  }
+  .learning-environment-image {
+    width: 260px;
+    height: 190px;
+    left: 98px;
+    top: 2120px;
+  }
+  .learning-environment-college-text {
+    font-size: 20px;
+    left: 54px;
+    top: 1870px;
+    width: 708px;
+    height: 56px;
+  }
+  .learning-environment-college-message {
+    font-size: 15px;
+    left: 46px;
+    top: 1910px;
+    width: 365px;
+    height: 443px;
+  }
+  .learning-environment-college-line {
+    width: 320px;
+    height: 0px;
+    left: 69px;
+    top: 1900px;
+  }
+  .learning-environment-college-ellipse {
+    width: 20px;
+    height: 20px;
+    left: 220px;
+    top: 1840px;
+  }
+}

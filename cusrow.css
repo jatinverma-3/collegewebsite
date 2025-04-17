@@ -1,0 +1,276 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.cusrow-wadia-container {
+  position: absolute;
+  inset: 0;
+}
+.cusrow-wadia-image {
+  width: 1440px;
+  height: 512px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.about-cusrow-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 111px;
+  top: 533px;
+  width: 365px;
+  height: 54px;
+}
+.about-cusrow-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 325px;
+  height: 0px;
+  position: absolute;
+  left: 124px;
+  top: 584.47px;
+}
+.college-logo {
+  width: 63px;
+  height: 62px;
+  position: absolute;
+  left: 145px;
+  top: 618px;
+  object-fit: cover;
+}
+.modern-education-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 221px;
+  top: 618px;
+  height: 53px;
+}
+.cusrow-info-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 153px;
+  top: 718px;
+  width: 646px;
+  height: 140px;
+}
+.cusrow-image {
+  border-radius: 50%;
+  width: 380px;
+  height: 348px;
+  position: absolute;
+  left: 948px;
+  top: 584px;
+  object-fit: cover;
+}
+
+
+/* For large screens (desktops) */
+@media (min-width: 1200px) {
+  .cusrow-wadia-image {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+/* For medium screens (tablets) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cusrow-wadia-image {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+/* For small screens (mobiles) */
+@media (max-width: 767px) {
+  .cusrow-wadia-image {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+
+/* Media Queries */
+@media (max-width: 1350px) {
+  .about-cusrow-text {
+    font-size: 30px;
+    left: 80px;
+    top: 500px;
+  }
+
+  .about-cusrow-line {
+    width: 250px;
+    left: 103px;
+    top: 546.47px;
+  }
+
+  .college-logo {
+    width: 60px;
+    height: 62px;
+    left: 100px;
+    top: 585px;
+  }
+  
+  .modern-education-text {
+    font-size: 20px;
+    left: 170px;
+    top: 580px;
+  }
+  
+  .cusrow-info-text {
+    font-size: 16px;
+    left: 115px;
+    top: 670px;
+  }
+  
+  .cusrow-image {
+    width: 300px;
+    height: 280px;
+    left: 800px;
+    top: 550px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-cusrow-text {
+    font-size: 26px;
+    left: 60px;
+    top: 365px;
+  }
+
+  .about-cusrow-line {
+    width: 225px;
+    left: 80px;
+    top: 405.47px;
+  }
+
+  .college-logo {
+    width: 50px;
+    height: 50px;
+    left: 80px;
+    top: 440px;
+  }
+  
+  .modern-education-text {
+    font-size: 18px;
+    left: 143px;
+    top: 437px;
+  }
+
+  .cusrow-info-text {
+    font-size: 15px;
+    left: 95px;
+    top: 510px;
+    width: 45%;
+  }
+
+  .cusrow-image {
+    width: 250px;
+    height: 230px;
+    left: 640px;
+    top: 465px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-cusrow-text {
+    font-size: 24px;
+    left: 30px;
+    top: 280px;
+    width: 100%;
+  }
+
+  .about-cusrow-line {
+    width: 200px;
+    left: 52px;
+    top: 320.47px;
+  }
+
+  .college-logo {
+    width: 40px;
+    height: 40px;
+    left: 26px;
+    top: 350px;
+  }
+
+  .modern-education-text {
+    font-size: 16px;
+    left: 76px;
+    top: 350px;
+    width: 100%;
+  }
+
+  .cusrow-info-text {
+    font-size: 14px;
+    left: 40px;
+    top: 425px;
+    width: 85%;
+  }
+
+  .cusrow-image {
+    width: 400px;
+    height: 300px;
+    left: 110px;
+    top: 592px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-cusrow-text {
+    font-size: 20px;
+    left: 160px;
+    top: 215px;
+  }
+
+  .about-cusrow-line {
+    width: 170px;
+    left: 175px;
+    top: 248px;
+  }
+
+  .college-logo {
+    width: 40px;
+    height: 40px;
+    left: 60px;
+    top: 290px;
+  }
+
+  .modern-education-text {
+    font-size: 14px;
+    left: 110px;
+    top: 290px;
+  }
+
+  .cusrow-info-text {
+    font-size: 12px;
+    left: 45px;
+    top: 360px;
+  }
+
+  .cusrow-image {
+    width: 250px;
+    height: 230px;
+    left: 145px;
+    top: 510px;
+  }
+}

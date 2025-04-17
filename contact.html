@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with-device-width, initial-scale=1.0" >
+    <title>COLLEGE WEBSITE</title>
+    <link rel="stylesheet" href="style.css"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="dropdown">
+                        <a href="about.html">ABOUT</a>
+                        <div class="dropdown-content">
+                            <a href="history.html">About Us</a>
+                            <a href="faculty-staff.html">Our Team</a>
+                            <a href="privacy-policy.html">Our Privacy Policy</a>
+                        </div>
+                    </li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li class="dropdown">
+                        <a href="#">More</a>
+                        <div class="dropdown-content">
+                            <a href="governance.html">Governance</a>
+                            <a href="iqac.html">IQAC</a>
+                            <a href="placement.html">Placements</a>
+                            <a href="event.html">Events</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+    <h1>Contact Us</h1>
+    
+    </section>
+
+    <!------- content  us------>
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242117.70906520818!2d73.69815023415754!3d18.
+        524870613959187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%
+        3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1683451568260!5m2!1sen!2sin" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </section>
+
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+<div> 
+    <i class="fa fa-home"></i>
+    <span>
+        <h5>XYZ Road, ABC Building</h5>
+        <p> pune, Maharashtra, IN</p>
+    </span>
+</div>
+<div> 
+    <i class="fa fa-phone"></i>
+    <span>
+        <h5>91+ 9528756609</h5>
+        <p> Monday to saturday, 10Am to 6Pm</p>
+    </span>
+</div>
+<div> 
+    <i class="fa fa-envelope-o"></i>
+    <span>
+        <h5>jv6216866@gmail.com</h5>
+        <p> Email us your query</p>
+    </span>
+</div>
+    </div>
+            <div class="contact-col">
+
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="1dc31d4d-3a51-47cf-9486-cb441ae8572d">
+
+                    <input type="text" name="name" placeholder="Enter Your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter Your subject" required>
+                    <textarea rows="8" name="Message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+<!---------- Footer ----------->
+<section class="Footer">
+    <h4> About Us</h4>
+    <p>Loren ipsum dolor sit amet, consectetur adipiscing elit.
+        pellentesque aliquet turpis nulla, eleifend faucibus est
+         <br>sollicitudin ut. maecenas ut venenatis ex, et dapibus purus.</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-snapchat"></i>
+</div>
+<P>Made With <i class="fa fa-heart"></i> by ANKUSH PRASAD &amp; JATIN VERMA...</P>
+
+</section>
+
+
+    <!----javascript for toggle menu---->
+    <script>
+        var navlinks= document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right ="0"; 
+        }
+        function hidemenu(){
+            navlinks.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+Home Page :
+
+Adjust logo 
+Add dropdown nav
+College info 
+
+When clicked on "Visit us to know nmore" show more info of college (its achievement,etc)
+
+
+Global Campus Section :
+
+Add Ness , Nowroji and Cusrow Wadia and when clicked show their info
+
+
+
+Our Facilities Section :
+
+
+Library - info about clg library
+Play Ground - info on sports and matches conducted in clg playground
+Hostel - info about clg hostel(boys and girls) and food 
+
+
+
+Reviews Section :
+
+Add more reviews and do some best styling
+
+
+
+About Section :
+
+Make it little attractive and add info about clg links and social media links

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notices</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f9fc;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        #notices {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px; /* Space between notices */
+            max-width: 800px; /* Limit the width */
+            margin: 0 auto; /* Center the notices section */
+        }
+
+        .notice-card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            width: 100%; /* Full width of the parent */
+            max-width: 600px; /* Max card width */
+            position: relative; /* For pseudo-elements */
+            overflow: hidden; /* Prevent overflow for rounded corners */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .notice-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .notice-card h2 {
+            margin: 0 0 10px;
+            color: #2980b9;
+            font-size: 1.6rem;
+        }
+
+        .notice-card p {
+            margin: 5px 0;
+            color: #34495e;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+
+        .notice-card small {
+            display: block;
+            margin-top: 10px;
+            color: #95a5a6;
+            font-size: 0.8em;
+        }
+
+        /* Decorative elements */
+        .notice-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background-color: #2980b9;
+            border-radius: 15px 15px 0 0;
+        }
+
+        /* New flip effect */
+        .card-container {
+            perspective: 1000px;
+            width: 100%; /* Ensure it takes full width */
+        }
+
+        .notice-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+
+        .notice-card-inner:hover {
+            transform: rotateY(180deg);
+        }
+
+        .notice-card-front, .notice-card-back {
+            position: absolute;
+            width: 100%;
+            backface-visibility: hidden;
+            border-radius: 15px;
+        }
+
+        .notice-card-back {
+            background-color: #2980b9;
+            color: white;
+            transform: rotateY(180deg);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .notice-card-back h2, .notice-card-back p {
+            color: white;
+        }
+
+        .notice-card-back small {
+            color: rgba(255, 255, 255, 0.7);
+        }
+    </style>
+</head>
+<body>
+
+<h1>Notices</h1>
+<div id="notices"></div> <!-- Notices will be displayed here -->
+
+<script>
+    $(document).ready(function() {
+        $.ajax({
+            url: "ajax-notices-page.php",
+            method: "POST",
+            data: { opr: "notices" },
+            success: function(response) {
+                $("#notices").html(response); // Display notices in the notices div
+            },
+            error: function(xhr, status, error) {
+                console.error("AJAX Error: ", status, error);
+                alert("An error occurred: " + error);
+            }
+        });
+    });
+
+    // Example of how to format each notice card in the PHP backend
+    // Ensure the structure matches the flipping card
+</script>
+
+</body>
+</html>

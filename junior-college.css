@@ -1,0 +1,2198 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #ffffff;
+  height: 2600px;
+  position: relative;
+  overflow: hidden;
+}
+.junior-college-image {
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.35)
+  );
+  width: 100vw;
+  height: 331px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.junior-college-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  position: absolute;
+  left: 173px;
+  top: 67px;
+  width: 344px;
+  height: 61px;
+}
+.junior-college-introduction-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 65px;
+  top: 384px;
+  width: 270px;
+  height: 51px;
+}
+.junior-college-intro-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  position: absolute;
+  left: 65px;
+  top: 456px;
+  width: 1233px;
+  height: 99px;
+}
+.junior-college-introduction-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 200px;
+  height: 0px;
+  position: absolute;
+  left: 75px;
+  top: 434.51px;
+}
+.steps-for-admission-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 65px;
+  top: 594px;
+  width: 656px;
+  height: 58px;
+}
+.jr-college-admission-step-1 {
+  position: absolute;
+  inset: 0;
+}
+.step-1-rectangle {
+  border-radius: 0px;
+  width: 1255px;
+  height: 55.9px;
+  position: absolute;
+  left: calc(50% - 645px);
+  top: 698px;
+  overflow: visible;
+}
+.step-1-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 77px;
+  top: 700px;
+  object-fit: cover;
+}
+.step-1-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 156.86px;
+  top: 711.98px;
+  width: 1070px;
+  height: 27.95px;
+}
+.jr-college-admission-step-2 {
+  position: absolute;
+  inset: 0;
+}
+.step-2-rectangle {
+  border-radius: 0px;
+  width: 1255px;
+  height: 55.9px;
+  position: absolute;
+  left: calc(50% - 643px);
+  top: 792px;
+  overflow: visible;
+}
+.step-2-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 79px;
+  top: 794px;
+  object-fit: cover;
+}
+.step-2-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 159px;
+  top: 806px;
+  width: 928px;
+  height: 28px;
+}
+.jr-college-admission-step-3 {
+  position: absolute;
+  inset: 0;
+}
+.step-3-rectangle {
+  border-radius: 0px;
+  width: 1255px;
+  height: 55.9px;
+  position: absolute;
+  left: calc(50% - 645px);
+  top: 888px;
+  overflow: visible;
+}
+.step-3-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 77px;
+  top: 890px;
+  object-fit: cover;
+}
+.step-3-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 157px;
+  top: 892px;
+  width: 1141px;
+  height: 30px;
+}
+.jr-college-admission-step-4 {
+  position: absolute;
+  inset: 0;
+}
+.step-4-rectangle {
+  border-radius: 0px;
+  width: 1255px;
+  height: 55.9px;
+  position: absolute;
+  left: calc(50% - 645px);
+  top: 984px;
+  overflow: visible;
+}
+.step-4-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 77px;
+  top: 986px;
+  object-fit: cover;
+}
+.step-4-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 157px;
+  top: 988px;
+  width: 1141px;
+  height: 50px;
+}
+.jr-college-admission-step-5 {
+  position: absolute;
+  inset: 0;
+}
+.step-5-rectangle {
+  border-radius: 0px;
+  width: 1255px;
+  height: 77px;
+  position: absolute;
+  left: calc(50% - 645px);
+  top: 1081px;
+  overflow: visible;
+}
+.step-5-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 77px;
+  top: 1083px;
+  object-fit: cover;
+}
+.step-5-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 157px;
+  top: 1085px;
+  width: 1148px;
+  height: 40px;
+}
+.jr-college-admission-step-6 {
+  position: absolute;
+  inset: 0;
+}
+.step-6-rectangle {
+  border-radius: 0px;
+  width: 1257px;
+  height: 94px;
+  position: absolute;
+  left: calc(50% - 647px);
+  top: 1176px;
+  overflow: visible;
+}
+.step-6-icon {
+  border-radius: 50%;
+  width: 59px;
+  height: 59px;
+  position: absolute;
+  left: 79px;
+  top: 1186px;
+  object-fit: cover;
+}
+.step-6-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 155px;
+  top: 1180px;
+  width: 1148px;
+  height: 71px;
+}
+.jr-college-admission-step-7 {
+  position: absolute;
+  inset: 0;
+}
+.step-7-rectangle {
+  border-radius: 0px;
+  width: 1255px;
+  height: 55.9px;
+  position: absolute;
+  left: calc(50% - 645px);
+  top: 1293px;
+  overflow: visible;
+}
+.step-7-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 77px;
+  top: 1295px;
+  object-fit: cover;
+}
+.step-7-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 157px;
+  top: 1307px;
+  width: 1038px;
+  height: 30px;
+}
+.jr-college-admission-step-8 {
+  position: absolute;
+  inset: 0;
+}
+.step-8-rectangle {
+  border-radius: 0px;
+  width: 1255px;
+  height: 55.9px;
+  position: absolute;
+  left: calc(50% - 645px);
+  top: 1388px;
+  overflow: visible;
+}
+.step-8-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 77px;
+  top: 1390px;
+  object-fit: cover;
+}
+.step-8-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 157px;
+  top: 1393px;
+  width: 1126px;
+  height: 40px;
+}
+.jr-college-admission-step-9 {
+  position: absolute;
+  inset: 0;
+}
+.step-9-rectangle {
+  border-radius: 0px;
+  width: 1255px;
+  height: 75px;
+  position: absolute;
+  left: calc(50% - 643px);
+  top: 1482px;
+  overflow: visible;
+}
+.step-9-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 79px;
+  top: 1484px;
+  object-fit: cover;
+}
+.step-9-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 159px;
+  top: 1487px;
+  width: 1144px;
+  height: 28px;
+}
+.jr-college-admission-step-10 {
+  position: absolute;
+  inset: 0;
+}
+.step-10-rectangle {
+  border-radius: 0px;
+  width: 1255px;
+  height: 55.9px;
+  position: absolute;
+  left: calc(50% - 643px);
+  top: 1576px;
+  overflow: visible;
+}
+.step-10-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 79px;
+  top: 1578px;
+  object-fit: cover;
+}
+.step-10-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 159px;
+  top: 1590px;
+  width: 910px;
+  height: 31px;
+}
+.step-10-subpart-a {
+  width: 648px;
+  height: 50px;
+  position: static;
+}
+.step-10-subrect-1 {
+  background: #d9d9d9;
+  border-radius: 100px;
+  width: 648px;
+  height: 50px;
+  position: absolute;
+  left: 163px;
+  top: 1634px;
+}
+.step-10-icon-a {
+  border-radius: 50%;
+  width: 58px;
+  height: 50px;
+  position: absolute;
+  left: 163px;
+  top: 1634px;
+  object-fit: cover;
+}
+.step-10-a-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 243px;
+  top: 1645px;
+  width: 320px;
+  height: 19px;
+}
+.step-10-subpart-b {
+  width: 648px;
+  height: 50px;
+  position: static;
+}
+.step-10-subrect-2 {
+  background: #d9d9d9;
+  border-radius: 100px;
+  width: 648px;
+  height: 50px;
+  position: absolute;
+  left: 163px;
+  top: 1692px;
+}
+.step-10-icon-b {
+  border-radius: 50%;
+  width: 58px;
+  height: 50px;
+  position: absolute;
+  left: 163px;
+  top: 1692px;
+  object-fit: cover;
+}
+.step-10-b-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 239px;
+  top: 1695px;
+  width: 540px;
+  height: 19px;
+}
+.step-10-subpart-c {
+  width: 648px;
+  height: 50px;
+  position: static;
+}
+.step-10-subrect-3 {
+  background: #d9d9d9;
+  border-radius: 100px;
+  width: 648px;
+  height: 50px;
+  position: absolute;
+  left: 163px;
+  top: 1751px;
+}
+.step-10-icon-c {
+  border-radius: 50%;
+  width: 58px;
+  height: 50px;
+  position: absolute;
+  left: 163px;
+  top: 1751px;
+  object-fit: cover;
+}
+.step-10-c-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 243px;
+  top: 1752px;
+  width: 552px;
+  height: 19px;
+}
+.step-10-subpart-d {
+  width: 648px;
+  height: 50px;
+  position: static;
+}
+.step-10-subrect-4 {
+  background: #d9d9d9;
+  border-radius: 100px;
+  width: 648px;
+  height: 50px;
+  position: absolute;
+  left: 163px;
+  top: 1811px;
+}
+.step-10-icon-d {
+  border-radius: 50%;
+  width: 58px;
+  height: 50px;
+  position: absolute;
+  left: 163px;
+  top: 1811px;
+  object-fit: cover;
+}
+.step-10-d-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 243px;
+  top: 1812px;
+  width: 576px;
+  height: 39px;
+}
+.step-10-subpart-e {
+  width: 648px;
+  height: 50px;
+  position: static;
+}
+.step-10-subrect-5 {
+  background: #d9d9d9;
+  border-radius: 100px;
+  width: 648px;
+  height: 50px;
+  position: absolute;
+  left: 163px;
+  top: 1872px;
+}
+.step-10-icon-e {
+  border-radius: 50%;
+  width: 58px;
+  height: 50px;
+  position: absolute;
+  left: 163px;
+  top: 1872px;
+  object-fit: cover;
+}
+.step-10-e-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 243px;
+  top: 1884px;
+  width: 344px;
+  height: 29px;
+}
+.jr-college-admission-step-11 {
+  position: absolute;
+  inset: 0;
+}
+.step-11-rectangle {
+  border-radius: 0px;
+  width: 1255px;
+  height: 55.9px;
+  position: absolute;
+  left: calc(50% - 645px);
+  top: 1966px;
+  overflow: visible;
+}
+.step-11-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 77px;
+  top: 1968px;
+  object-fit: cover;
+}
+.step-11-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 157px;
+  top: 1971px;
+  width: 1126px;
+  height: 28px;
+}
+.jr-college-admission-step-12 {
+  position: absolute;
+  inset: 0;
+}
+.step-12-rectangle {
+  border-radius: 0px;
+  width: 1255px;
+  height: 55.9px;
+  position: absolute;
+  left: calc(50% - 645px);
+  top: 2055px;
+  overflow: visible;
+}
+.step-12-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 77px;
+  top: 2057px;
+  object-fit: cover;
+}
+.step-12-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 157px;
+  top: 2059px;
+  width: 1114px;
+  height: 42px;
+}
+.jr-college-admission-step-13 {
+  position: absolute;
+  inset: 0;
+}
+.step-13-rectangle {
+  border-radius: 0px;
+  width: 1255px;
+  height: 55.9px;
+  position: absolute;
+  left: calc(50% - 645px);
+  top: 2144px;
+  overflow: visible;
+}
+.step-13-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 77px;
+  top: 2146px;
+  object-fit: cover;
+}
+.step-13-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 157px;
+  top: 2158px;
+  width: 822px;
+  height: 30px;
+}
+.jr-college-admission-step-14 {
+  position: absolute;
+  inset: 0;
+}
+.step-14-rectangle {
+  border-radius: 0px;
+  width: 1255px;
+  height: 55.9px;
+  position: absolute;
+  left: calc(50% - 645px);
+  top: 2233px;
+  overflow: visible;
+}
+.step-14-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 77px;
+  top: 2235px;
+  object-fit: cover;
+}
+.step-14-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 157px;
+  top: 2237px;
+  width: 1038px;
+  height: 42px;
+}
+.jr-college-admission-step-15 {
+  position: absolute;
+  inset: 0;
+}
+.step-15-rectangle {
+  border-radius: 0px;
+  width: 1255px;
+  height: 55.9px;
+  position: absolute;
+  left: calc(50% - 645px);
+  top: 2322px;
+  overflow: visible;
+}
+.step-15-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 77px;
+  top: 2324px;
+  object-fit: cover;
+}
+.step-15-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 157px;
+  top: 2336px;
+  width: 1284px;
+  height: 28px;
+}
+.commerce-intake-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 256px);
+  top: 2477px;
+  width: 611px;
+  height: 56px;
+}
+.commerce-intake-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 418px;
+  height: 0px;
+  position: absolute;
+  left: 494px;
+  top: 2532.54px;
+}
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+.junior-college-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  position: absolute;
+  left: 60px;
+  top: 67px;
+  width: 344px;
+  height: 61px;
+}
+.junior-college-introduction-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 150px;
+  height: 0px;
+  position: absolute;
+  left: 75px;
+  top: 410.51px;
+}
+.junior-college-intro-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 60px;
+  top: 435px;
+  width: 533px;
+  height: 99px;
+}
+.steps-for-admission-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 60px;
+  top: 595px;
+  width: 656px;
+  height: 58px;
+}
+
+.step-1-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 55px;
+  top: 675px;
+  object-fit: cover;
+}
+.step-1-rectangle {
+  border-radius: 0px;
+  width: 550px;
+  height: 55.9px;
+  position: absolute;
+  left: 120px;
+  top: 675px;
+  overflow: visible;
+}
+.step-1-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 127.86px;
+  top: 686.98px;
+  width: 590px;
+  height: 27.95px;
+}
+
+.step-2-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 55px;
+  top: 745px;
+  object-fit: cover;
+}
+.step-2-rectangle {
+  border-radius: 0px;
+  width: 550px;
+  height: 55.9px;
+  position: absolute;
+  left: 120px;
+  top: 745px;
+  overflow: visible;
+}
+.step-2-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 127.86px;
+  top: 760px;
+  width: 590px;
+  height: 27.95px;
+}
+
+.step-3-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 55px;
+  top: 815px;
+  object-fit: cover;
+}
+.step-3-rectangle {
+  border-radius: 0px;
+  width: 550px;
+  height: 55.9px;
+  position: absolute;
+  left: 120px;
+  top: 815px;
+  overflow: visible;
+}
+.step-3-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 127.86px;
+  top: 815px;
+  width: 535px;
+  height: 27.95;
+}
+
+.step-4-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 55px;
+  top: 885px;
+  object-fit: cover;
+}
+.step-4-rectangle {
+  border-radius: 0px;
+  width: 550px;
+  height: 55.9px;
+  position: absolute;
+  left: 120px;
+  top: 885px;
+  overflow: visible;
+}
+.step-4-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 127.86px;
+  top: 885px;
+  width: 530px;
+  height: 27.95px;
+}
+
+.step-5-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 55px;
+  top: 955px;
+  object-fit: cover;
+}
+.step-5-rectangle {
+  border-radius: 0px;
+  width: 550px;
+  height: 55.9px;
+  position: absolute;
+  left: 120px;
+  top: 955px;
+  overflow: visible;
+}
+.step-5-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 127.86px;
+  top: 955px;
+  width: 565px;
+  height: 27.95px;
+}
+
+.step-6-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 55px;
+  top: 1025px;
+  object-fit: cover;
+}
+.step-6-rectangle {
+  border-radius: 0px;
+  width: 550px;
+  height: 55.9px;
+  position: absolute;
+  left: 120px;
+  top: 1025px;
+  overflow: visible;
+}
+.step-6-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  position: absolute;
+  left: 127.86px;
+  top: 1025px;
+  width: 535px;
+  height: 27.95px;
+}
+
+.step-7-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 55px;
+  top: 1100px;
+  object-fit: cover;
+}
+.step-7-rectangle {
+  border-radius: 0px;
+  width: 550px;
+  height: 55.9px;
+  position: absolute;
+  left: 120px;
+  top: 1100px;
+  overflow: visible;
+}
+.step-7-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 127.86px;
+  top: 1108px;
+  width: 530px;
+  height: 27.95px;
+}
+
+.step-8-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 55px;
+  top: 1175px;
+  object-fit: cover;
+}
+.step-8-rectangle {
+  border-radius: 0px;
+  width: 550px;
+  height: 55.9px;
+  position: absolute;
+  left: 120px;
+  top: 1175px;
+  overflow: visible;
+}
+.step-8-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 127.86px;
+  top: 1175px;
+  width: 530px;
+  height: 27.95px;
+}
+
+.step-9-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 55px;
+  top: 1250px;
+  object-fit: cover;
+}
+.step-9-rectangle {
+  border-radius: 0px;
+  width: 550px;
+  height: 60px;
+  position: absolute;
+  left: 120px;
+  top: 1250px;
+  overflow: visible;
+}
+.step-9-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 127.86px;
+  top: 1250px;
+  width: 530px;
+  height: 27.95px;
+}
+
+.step-10-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 55px;
+  top: 1330px;
+  object-fit: cover;
+}
+.step-10-rectangle {
+  border-radius: 0px;
+  width: 550px;
+  height: 55.9px;
+  position: absolute;
+  left: 120px;
+  top: 1330px;
+  overflow: visible;
+}
+.step-10-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 127.86px;
+  top: 1338px;
+  width: 530px;
+  height: 27.95px;
+}
+
+.step-10-subrect-1 {
+  background: #d9d9d9;
+  border-radius: 100px;
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  left: 150px;
+  top: 1387px;
+}
+.step-10-icon-a {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 150px;
+  top: 1387px;
+  object-fit: cover;
+}
+.step-10-a-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 220px;
+  top: 1401px;
+  width: 320px;
+  height: 19px;
+}
+
+.step-10-subrect-2 {
+  background: #d9d9d9;
+  border-radius: 100px;
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  left: 150px;
+  top: 1438px;
+}
+.step-10-icon-b {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 150px;
+  top: 1438px;
+  object-fit: cover;
+}
+.step-10-b-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 220px;
+  top: 1444px;
+  width: 320px;
+  height: 19px;
+}
+
+.step-10-subrect-3 {
+  background: #d9d9d9;
+  border-radius: 100px;
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  left: 150px;
+  top: 1489px;
+}
+.step-10-icon-c {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 150px;
+  top: 1489px;
+  object-fit: cover;
+}
+.step-10-c-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 220px;
+  top: 1495px;
+  width: 320px;
+  height: 19px;
+}
+
+.step-10-subrect-4 {
+  background: #d9d9d9;
+  border-radius: 100px;
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  left: 150px;
+  top: 1540px;
+}
+.step-10-icon-d {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 150px;
+  top: 1540px;
+  object-fit: cover;
+}
+.step-10-d-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 220px;
+  top: 1540px;
+  width: 320px;
+  height: 19px;
+}
+
+.step-10-subrect-5 {
+  background: #d9d9d9;
+  border-radius: 100px;
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  left: 150px;
+  top: 1591px;
+}
+.step-10-icon-e {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 150px;
+  top: 1591px;
+  object-fit: cover;
+}
+.step-10-e-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 220px;
+  top: 1605px;
+  width: 320px;
+  height: 19px;
+}
+
+.step-11-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 55px;
+  top: 1665px;
+  object-fit: cover;
+}
+.step-11-rectangle {
+  border-radius: 0px;
+  width: 550px;
+  height: 55.9px;
+  position: absolute;
+  left: 120px;
+  top: 1665px;
+  overflow: visible;
+}
+.step-11-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 127.86px;
+  top: 1667px;
+  width: 530px;
+  height: 27.95px;
+}
+
+.step-12-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 55px;
+  top: 1740px;
+  object-fit: cover;
+}
+.step-12-rectangle {
+  border-radius: 0px;
+  width: 550px;
+  height: 55.9px;
+  position: absolute;
+  left: 120px;
+  top: 1740px;
+  overflow: visible;
+}
+.step-12-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 127.86px;
+  top: 1740px;
+  width: 550px;
+  height: 27.95px;
+}
+
+.step-13-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 55px;
+  top: 1815px;
+  object-fit: cover;
+}
+.step-13-rectangle {
+  border-radius: 0px;
+  width: 550px;
+  height: 55.9px;
+  position: absolute;
+  left: 120px;
+  top: 1815px;
+  overflow: visible;
+}
+.step-13-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 127.86px;
+  top: 1833px;
+  width: 590px;
+  height: 27.95px;
+}
+
+.step-14-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 55px;
+  top: 1890px;
+  object-fit: cover;
+}
+.step-14-rectangle {
+  border-radius: 0px;
+  width: 550px;
+  height: 55.9px;
+  position: absolute;
+  left: 120px;
+  top: 1890px;
+  overflow: visible;
+}
+.step-14-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 127.86px;
+  top: 1890px;
+  width: 525px;
+  height: 27.95px;
+}
+
+.step-15-icon {
+  border-radius: 50%;
+  width: 55px;
+  height: 52px;
+  position: absolute;
+  left: 55px;
+  top: 1965px;
+  object-fit: cover;
+}
+.step-15-rectangle {
+  border-radius: 0px;
+  width: 550px;
+  height: 55.9px;
+  position: absolute;
+  left: 120px;
+  top: 1965px;
+  overflow: visible;
+}
+.step-15-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 127.86px;
+  top: 1973px;
+  width: 550px;
+  height: 27.95px;
+}
+.commerce-intake-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 256px);
+  top: 2150px;
+  width: 611px;
+  height: 56px;
+}
+.commerce-intake-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 418px;
+  height: 0px;
+  position: absolute;
+  left: 145px;
+  top: 2200px;
+}
+}
+
+
+
+@media (max-width: 370px) {
+.junior-college-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 55px;
+  top: 125px;
+  width: 344px;
+  height: 61px;
+}
+.junior-college-introduction-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  position: absolute;
+  left: 105px;
+  top: 360px;
+  width: 270px;
+  height: 51px;
+}
+.junior-college-introduction-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 113px;
+  height: 0px;
+  position: absolute;
+  left: 116px;
+  top: 393.51px;
+}
+.junior-college-intro-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 38px;
+  top: 415px;
+  width: 295px;
+  height: 99px;
+}
+.steps-for-admission-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 65px;
+  top: 565px;
+  width: 256px;
+  height: 58px;
+}
+
+.step-1-icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 20px;
+  top: 650px;
+  object-fit: cover;
+}
+.step-1-rectangle {
+  border-radius: 0px;
+  width: 250px;
+  height: 55.9px;
+  position: absolute;
+  left: 65px;
+  top: 650px;
+  overflow: visible;
+}
+.step-1-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 75px;
+  top: 650px;
+  width: 230px;
+  height: 27.95px;
+}
+
+.step-2-icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 20px;
+  top: 715px;
+  object-fit: cover;
+}
+.step-2-rectangle {
+  border-radius: 0px;
+  width: 250px;
+  height: 55.9px;
+  position: absolute;
+  left: 65px;
+  top: 715px;
+  overflow: visible;
+}
+.step-2-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 75px;
+  top: 720px;
+  width: 230px;
+  height: 27.95px;
+}
+
+.step-3-icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 20px;
+  top: 785px;
+  object-fit: cover;
+}
+.step-3-rectangle {
+  border-radius: 0px;
+  width: 250px;
+  height: 55.9px;
+  position: absolute;
+  left: 65px;
+  top: 785px;
+  overflow: visible;
+}
+.step-3-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 75px;
+  top: 786px;
+  width: 230px;
+  height: 27.95px;
+}
+
+.step-4-icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 20px;
+  top: 855px;
+  object-fit: cover;
+}
+.step-4-rectangle {
+  border-radius: 0px;
+  width: 250px;
+  height: 55.9px;
+  position: absolute;
+  left: 65px;
+  top: 855px;
+  overflow: visible;
+}
+.step-4-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 75px;
+  top: 857px;
+  width: 230px;
+  height: 27.95px;
+}
+
+.step-5-icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 20px;
+  top: 925px;
+  object-fit: cover;
+}
+.step-5-rectangle {
+  border-radius: 0px;
+  width: 250px;
+  height: 55.9px;
+  position: absolute;
+  left: 65px;
+  top: 925px;
+  overflow: visible;
+}
+.step-5-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  position: absolute;
+  left: 75px;
+  top: 927px;
+  width: 230px;
+  height: 27.95px;
+}
+
+.step-6-icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 20px;
+  top: 995px;
+  object-fit: cover;
+}
+.step-6-rectangle {
+  border-radius: 0px;
+  width: 250px;
+  height: 87px;
+  position: absolute;
+  left: 65px;
+  top: 995px;
+  overflow: visible;
+}
+.step-6-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  position: absolute;
+  left: 75px;
+  top: 998px;
+  width: 230px;
+  height: 27.95px;
+}
+
+.step-7-icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 20px;
+  top: 1095px;
+  object-fit: cover;
+}
+.step-7-rectangle {
+  border-radius: 0px;
+  width: 250px;
+  height: 55.9px;
+  position: absolute;
+  left: 65px;
+  top: 1095px;
+  overflow: visible;
+}
+.step-7-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  position: absolute;
+  left: 75px;
+  top: 1102px;
+  width: 230px;
+  height: 27.95px;
+}
+
+.step-8-icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 20px;
+  top: 1165px;
+  object-fit: cover;
+}
+.step-8-rectangle {
+  border-radius: 0px;
+  width: 250px;
+  height: 60px;
+  position: absolute;
+  left: 65px;
+  top: 1165px;
+  overflow: visible;
+}
+.step-8-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 75px;
+  top: 1167px;
+  width: 230px;
+  height: 27.95px;
+}
+
+.step-9-icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 20px;
+  top: 1240px;
+  object-fit: cover;
+}
+.step-9-rectangle {
+  border-radius: 0px;
+  width: 250px;
+  height: 70px;
+  position: absolute;
+  left: 65px;
+  top: 1240px;
+  overflow: visible;
+}
+.step-9-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 75px;
+  top: 1242px;
+  width: 230px;
+  height: 27.95px;
+}
+
+.step-10-icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 20px;
+  top: 1325px;
+  object-fit: cover;
+}
+.step-10-rectangle {
+  border-radius: 0px;
+  width: 250px;
+  height: 55.9px;
+  position: absolute;
+  left: 65px;
+  top: 1325px;
+  overflow: visible;
+}
+.step-10-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  position: absolute;
+  left: 75px;
+  top: 1330px;
+  width: 230px;
+  height: 27.95px;
+}
+
+.step-10-subrect-1 {
+  background: #d9d9d9;
+  border-radius: 100px;
+  width: 200px;
+  height: 35px;
+  position: absolute;
+  left: 95px;
+  top: 1382px;
+}
+.step-10-icon-a {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 95px;
+  top: 1382px;
+  object-fit: cover;
+}
+.step-10-a-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  position: absolute;
+  left: 140px;
+  top: 1387px;
+  width: 120px;
+  height: 19px;
+}
+
+.step-10-subrect-2 {
+  background: #d9d9d9;
+  border-radius: 100px;
+  width: 200px;
+  height: 35px;
+  position: absolute;
+  left: 95px;
+  top: 1419px;
+}
+.step-10-icon-b {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 95px;
+  top: 1419px;
+  object-fit: cover;
+}
+.step-10-b-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 140px;
+  top: 1420px;
+  width: 120px;
+  height: 19px;
+}
+
+.step-10-subrect-3 {
+  background: #d9d9d9;
+  border-radius: 100px;
+  width: 200px;
+  height: 35px;
+  position: absolute;
+  left: 95px;
+  top: 1456px;
+}
+.step-10-icon-c {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 95px;
+  top: 1456px;
+  object-fit: cover;
+}
+.step-10-c-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 140px;
+  top: 1456px;
+  width: 135px;
+  height: 19px;
+}
+
+.step-10-subrect-4 {
+  background: #d9d9d9;
+  border-radius: 100px;
+  width: 200px;
+  height: 47px;
+  position: absolute;
+  left: 95px;
+  top: 1493px;
+}
+.step-10-icon-d {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 95px;
+  top: 1493px;
+  object-fit: cover;
+}
+.step-10-d-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  position: absolute;
+  left: 140px;
+  top: 1496px;
+  width: 150px;
+  height: 19px;
+}
+
+.step-10-subrect-5 {
+  background: #d9d9d9;
+  border-radius: 100px;
+  width: 200px;
+  height: 35px;
+  position: absolute;
+  left: 95px;
+  top: 1542px;
+}
+.step-10-icon-e {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 95px;
+  top: 1542px;
+  object-fit: cover;
+}
+.step-10-e-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  position: absolute;
+  left: 140px;
+  top: 1546px;
+  width: 120px;
+  height: 19px;
+}
+
+.step-11-icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 20px;
+  top: 1595px;
+  object-fit: cover;
+}
+.step-11-rectangle {
+  border-radius: 0px;
+  width: 250px;
+  height: 55.9px;
+  position: absolute;
+  left: 65px;
+  top: 1595px;
+  overflow: visible;
+}
+.step-11-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 75px;
+  top: 1599px;
+  width: 230px;
+  height: 27.95px;
+}
+
+.step-12-icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 20px;
+  top: 1670px;
+  object-fit: cover;
+}
+.step-12-rectangle {
+  border-radius: 0px;
+  width: 250px;
+  height: 75px;
+  position: absolute;
+  left: 65px;
+  top: 1670px;
+  overflow: visible;
+}
+.step-12-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 75px;
+  top: 1673px;
+  width: 230px;
+  height: 27.95px;
+}
+
+.step-13-icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 20px;
+  top: 1765px;
+  object-fit: cover;
+}
+.step-13-rectangle {
+  border-radius: 0px;
+  width: 250px;
+  height: 55.9px;
+  position: absolute;
+  left: 65px;
+  top: 1765px;
+  overflow: visible;
+}
+.step-13-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  position: absolute;
+  left: 75px;
+  top: 1777px;
+  width: 230px;
+  height: 27.95px;
+}
+
+.step-14-icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 20px;
+  top: 1840px;
+  object-fit: cover;
+}
+.step-14-rectangle {
+  border-radius: 0px;
+  width: 250px;
+  height: 55.9px;
+  position: absolute;
+  left: 65px;
+  top: 1840px;
+  overflow: visible;
+}
+.step-14-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 75px;
+  top: 1840px;
+  width: 230px;
+  height: 27.95px;
+}
+
+.step-15-icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 20px;
+  top: 1915px;
+  object-fit: cover;
+}
+.step-15-rectangle {
+  border-radius: 0px;
+  width: 250px;
+  height: 55.9px;
+  position: absolute;
+  left: 65px;
+  top: 1915px;
+  overflow: visible;
+}
+.step-15-info {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  position: absolute;
+  left: 75px;
+  top: 1915px;
+  width: 230px;
+  height: 27.95px;
+}
+.commerce-intake-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 37px;
+  top: 2070px;
+  width: 611px;
+  height: 56px;
+}
+.commerce-intake-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #e63946;
+  border-width: 3px 0 0 0;
+  width: 210px;
+  height: 0px;
+  position: absolute;
+  left: 53px;
+  top: 2099px;
+}
+}

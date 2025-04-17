@@ -1,0 +1,1849 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #ffffff;
+  height: 2600px;
+  position: relative;
+  overflow: hidden;
+}
+.senior-college-container {
+  position: absolute;
+  inset: 0;
+}
+.senior-college-image {
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.35)
+  );
+  width: 100vw;
+  height: 331px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.senior-college-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  position: absolute;
+  left: 173px;
+  top: 67px;
+  width: 413px;
+  height: 61px;
+}
+.intro-container {
+  position: absolute;
+  inset: 0;
+}
+.senior-introduction-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  position: absolute;
+  left: 97px;
+  top: 397px;
+  width: 239px;
+  height: 52px;
+}
+.intro-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 97px;
+  top: 479px;
+  width: 1193px;
+  height: 102px;
+}
+.intro-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 173.05px;
+  height: 0px;
+  position: absolute;
+  left: 116.98px;
+  top: 447px;
+}
+.bcom-container {
+  position: absolute;
+  inset: 0;
+}
+.admission-notice-bcom-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  position: absolute;
+  left: 97px;
+  top: 636px;
+  width: 813px;
+  height: 55px;
+}
+.admission-notice-bcom-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 717px;
+  height: 0px;
+  position: absolute;
+  left: 138px;
+  top: 692px;
+}
+.bcom-info {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 97px;
+  top: 732px;
+  width: 1136px;
+  height: 113px;
+}
+.bba-container {
+  position: absolute;
+  inset: 0;
+}
+.admission-notice-bba-ib-ca-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  position: absolute;
+  left: 97px;
+  top: 915px;
+  width: 1108px;
+  height: 60px;
+}
+.bba-info {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 97px;
+  top: 1007px;
+  width: 1114px;
+  height: 169px;
+}
+.admission-notice-bba-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 1044px;
+  height: 0px;
+  position: absolute;
+  left: 122px;
+  top: 971px;
+}
+.ug-courses-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 225px);
+  top: 1251px;
+  width: 450px;
+  height: 50px;
+}
+.ug-courses-text-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 391.05px;
+  height: 0px;
+  position: absolute;
+  left: 513.98px;
+  top: 1302px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.bcom-course-container {
+  position: absolute;
+  inset: 0;
+}
+.bcom-rect {
+  background: #d9d9d9;
+  width: 619px;
+  height: 303px;
+  position: absolute;
+  left: 70px;
+  top: 1404px;
+}
+.bcom-image {
+  width: 303px;
+  height: 303px;
+  position: absolute;
+  left: 70px;
+  top: 1404px;
+  object-fit: cover;
+}
+.bcom-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  position: absolute;
+  left: 461px;
+  top: 1436px;
+  width: 123px;
+  height: 44px;
+}
+.bach-com-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 400px;
+  top: 1519px;
+  width: 271px;
+  height: 37px;
+}
+.course-duration-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 384px;
+  top: 1572px;
+  width: 299px;
+  height: 63px;
+}
+.know-more-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 450px;
+  top: 1636px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon {
+  border-radius: 50%;
+  width: 47px;
+  height: 46px;
+  position: absolute;
+  left: 569px;
+  top: 1626px;
+  object-fit: cover;
+}
+.bba-course-container {
+  position: absolute;
+  inset: 0;
+}
+.bba-rect {
+  background: #d9d9d9;
+  width: 619px;
+  height: 303px;
+  position: absolute;
+  left: 755px;
+  top: 1404px;
+}
+.bba-image {
+  width: 325px;
+  height: 303px;
+  position: absolute;
+  left: 755px;
+  top: 1404px;
+  object-fit: cover;
+}
+.bba-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  position: absolute;
+  left: 1164px;
+  top: 1436px;
+  width: 112px;
+  height: 44px;
+}
+.bach-com-text2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 1097px;
+  top: 1504px;
+  width: 257px;
+  height: 59px;
+}
+.course-duration-text2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 1069px;
+  top: 1584px;
+  width: 299px;
+  height: 29px;
+}
+.know-more-text2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 1135px;
+  top: 1636px;
+  width: 119px;
+  height: 30px;
+}
+.know-more-icon2 {
+  border-radius: 50%;
+  width: 47px;
+  height: 46px;
+  position: absolute;
+  left: 1254px;
+  top: 1626px;
+  object-fit: cover;
+}
+.bbaib-course-container {
+  position: absolute;
+  inset: 0;
+}
+.bbaib-rect {
+  background: #d9d9d9;
+  width: 619px;
+  height: 303px;
+  position: absolute;
+  left: 70px;
+  top: 1794px;
+}
+.bbaib-image {
+  width: 303px;
+  height: 303px;
+  position: absolute;
+  left: 70px;
+  top: 1794px;
+  object-fit: cover;
+}
+.bbaib-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  position: absolute;
+  left: 438px;
+  top: 1813px;
+  width: 189px;
+  height: 44px;
+}
+.bach-com-text3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 400px;
+  top: 1870px;
+  width: 265px;
+  height: 92px;
+}
+.course-duration-text3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 384px;
+  top: 1985px;
+  width: 299px;
+  height: 32px;
+}
+.know-more-text3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 450px;
+  top: 2047px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon3 {
+  border-radius: 50%;
+  width: 47px;
+  height: 46px;
+  position: absolute;
+  left: 569px;
+  top: 2036px;
+  object-fit: cover;
+}
+.bca-course-container {
+  position: absolute;
+  inset: 0;
+}
+.bca-rect {
+  background: #d9d9d9;
+  width: 619px;
+  height: 303px;
+  position: absolute;
+  left: 755px;
+  top: 1794px;
+}
+.bca-image {
+  width: 303px;
+  height: 303px;
+  position: absolute;
+  left: 755px;
+  top: 1794px;
+  object-fit: cover;
+}
+.bca-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  position: absolute;
+  left: 1120px;
+  top: 1813px;
+  width: 211px;
+  height: 44px;
+}
+.bach-com-text4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 1091px;
+  top: 1872px;
+  width: 263px;
+  height: 88px;
+}
+.course-duration-text4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 1069px;
+  top: 1985px;
+  width: 305px;
+  height: 31px;
+}
+.know-more-text4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 1135px;
+  top: 2040px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon4 {
+  border-radius: 50%;
+  width: 47px;
+  height: 46px;
+  position: absolute;
+  left: 1254px;
+  top: 2030px;
+  object-fit: cover;
+}
+.bbaro-course-container {
+  position: absolute;
+  inset: 0;
+}
+.bbaro-rect {
+  background: #d9d9d9;
+  width: 619px;
+  height: 303px;
+  position: absolute;
+  left: 70px;
+  top: 2184px;
+}
+.bbaro-image {
+  width: 303px;
+  height: 303px;
+  position: absolute;
+  left: 70px;
+  top: 2184px;
+  object-fit: cover;
+}
+.bbaro-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  position: absolute;
+  left: 438px;
+  top: 2203px;
+  width: 595px;
+  height: 44px;
+}
+.bach-com-text5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 424px;
+  top: 2253px;
+  width: 216px;
+  height: 101px;
+}
+.course-duration-text5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 384px;
+  top: 2361px;
+  width: 299px;
+  height: 45px;
+}
+.know-more-text5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 450px;
+  top: 2429px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon5 {
+  border-radius: 50%;
+  width: 47px;
+  height: 46px;
+  position: absolute;
+  left: 569px;
+  top: 2418px;
+  object-fit: cover;
+}
+.bvoc-course-container {
+  position: absolute;
+  inset: 0;
+}
+.bvoc-rect {
+  background: #d9d9d9;
+  width: 619px;
+  height: 303px;
+  position: absolute;
+  left: 755px;
+  top: 2184px;
+}
+.bvoc-image {
+  width: 303px;
+  height: 303px;
+  position: absolute;
+  left: 755px;
+  top: 2184px;
+  object-fit: cover;
+}
+.bvoc-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  position: absolute;
+  left: 1154px;
+  top: 2216px;
+  width: 135px;
+  height: 44px;
+}
+.bach-com-text6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 1095px;
+  top: 2285px;
+  width: 255px;
+  height: 37px;
+}
+.course-duration-text6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 1069px;
+  top: 2361px;
+  width: 299px;
+  height: 63px;
+}
+.know-more-text6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 1135px;
+  top: 2429px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon6 {
+  border-radius: 50%;
+  width: 47px;
+  height: 46px;
+  position: absolute;
+  left: 1254px;
+  top: 2418px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+.senior-college-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  position: absolute;
+  left: 195px;
+  top: 125px;
+  width: 413px;
+  height: 61px;
+}
+.senior-introduction-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  left: 60px;
+  top: 380px;
+  width: 239px;
+  height: 52px;
+}
+.intro-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 164px;
+  height: 0px;
+  position: absolute;
+  left: 70px;
+  top: 420px;
+}
+.intro-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  position: absolute;
+  left: 60px;
+  top: 455px;
+  width: 600px;
+  height: 102px;
+}
+.admission-notice-bcom-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  left: 60px;
+  top: 635px;
+  width: 813px;
+  height: 55px;
+}
+.admission-notice-bcom-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 610px;
+  height: 0px;
+  position: absolute;
+  left: 80px;
+  top: 675px;
+}
+.bcom-info {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  left: 60px;
+  top: 715px;
+  width: 575px;
+  height: 113px;
+}
+.admission-notice-bba-ib-ca-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  left: 60px;
+  top: 915px;
+  width: 1108px;
+  height: 60px;
+}
+.admission-notice-bba-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 620px;
+  height: 0px;
+  position: absolute;
+  left: 75px;
+  top: 945px;
+}
+.bba-info {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  left: 75px;
+  top: 980px;
+  width: 585px;
+  height: 169px;
+}
+.ug-courses-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  left: 170px;
+  top: 1250px;
+  width: 450px;
+  height: 50px;
+}
+.ug-courses-text-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 335px;
+  height: 0px;
+  position: absolute;
+  left: 190px;
+  top: 1290px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+
+.bcom-rect {
+  background: #d9d9d9;
+  width: 340px;
+  height: 225px;
+  position: absolute;
+  left: 25px;
+  top: 1350px;
+}
+.bcom-image {
+  width: 170px;
+  height: 225px;
+  position: absolute;
+  left: 25px;
+  top: 1350px;
+  object-fit: cover;
+}
+.bcom-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  position: absolute;
+  left: 235px;
+  top: 1370px;
+  width: 123px;
+  height: 44px;
+}
+.bach-com-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  left: 230px;
+  top: 1415px;
+  width: 171px;
+  height: 37px;
+}
+.course-duration-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 215px;
+  top: 1480px;
+  width: 145px;
+  height: 63px;
+}
+.know-more-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 220px;
+  top: 1535px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 310px;
+  top: 1525px;
+  object-fit: cover;
+}
+
+.bba-rect {
+  background: #d9d9d9;
+  width: 340px;
+  height: 225px;
+  position: absolute;
+  left: 390px;
+  top: 1350px;
+}
+.bba-image {
+  width: 170px;
+  height: 225px;
+  position: absolute;
+  left: 390px;
+  top: 1350px;
+  object-fit: cover;
+}
+.bba-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  position: absolute;
+  left: 605px;
+  top: 1370px;
+  width: 123px;
+  height: 44px;
+}
+.bach-com-text2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  position: absolute;
+  left: 590px;
+  top: 1410px;
+  width: 171px;
+  height: 37px;
+}
+.course-duration-text2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 575px;
+  top: 1480px;
+  width: 145px;
+  height: 63px;
+}
+.know-more-text2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 580px;
+  top: 1535px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon2 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 670px;
+  top: 1525px;
+  object-fit: cover;
+}
+
+.bbaib-rect {
+  background: #d9d9d9;
+  width: 340px;
+  height: 225px;
+  position: absolute;
+  left: 25px;
+  top: 1630px;
+}
+.bbaib-image {
+  width: 170px;
+  height: 225px;
+  position: absolute;
+  left: 25px;
+  top: 1630px;
+  object-fit: cover;
+}
+.bbaib-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  position: absolute;
+  left: 213px;
+  top: 1645px;
+  width: 223px;
+  height: 44px;
+}
+.bach-com-text3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  left: 200px;
+  top: 1685px;
+  width: 171px;
+  height: 37px;
+}
+.course-duration-text3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 215px;
+  top: 1755px;
+  width: 145px;
+  height: 63px;
+}
+.know-more-text3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 220px;
+  top: 1810px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon3 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 310px;
+  top: 1800px;
+  object-fit: cover;
+}
+
+.bca-rect {
+  background: #d9d9d9;
+  width: 340px;
+  height: 225px;
+  position: absolute;
+  left: 390px;
+  top: 1630px;
+}
+.bca-image {
+  width: 170px;
+  height: 225px;
+  position: absolute;
+  left: 390px;
+  top: 1630px;
+  object-fit: cover;
+}
+.bca-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  position: absolute;
+  left: 570px;
+  top: 1645px;
+  width: 223px;
+  height: 44px;
+}
+.bach-com-text4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  left: 567px;
+  top: 1690px;
+  width: 571px;
+  height: 37px;
+}
+.course-duration-text4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 575px;
+  top: 1755px;
+  width: 145px;
+  height: 63px;
+}
+.know-more-text4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 580px;
+  top: 1810px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon4 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 670px;
+  top: 1800px;
+  object-fit: cover;
+}
+
+.bbaro-rect {
+  background: #d9d9d9;
+  width: 340px;
+  height: 225px;
+  position: absolute;
+  left: 25px;
+  top: 1910px;
+}
+.bbaro-image {
+  width: 170px;
+  height: 225px;
+  position: absolute;
+  left: 25px;
+  top: 1910px;
+  object-fit: cover;
+}
+.bbaro-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  position: absolute;
+  left: 210px;
+  top: 1925px;
+  width: 223px;
+  height: 44px;
+}
+.bach-com-text5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  left: 223px;
+  top: 1965px;
+  width: 179px;
+  height: 37px;
+}
+.course-duration-text5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 215px;
+  top: 2035px;
+  width: 145px;
+  height: 63px;
+}
+.know-more-text5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 220px;
+  top: 2095px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon5 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 310px;
+  top: 2085px;
+  object-fit: cover;
+}
+
+.bvoc-rect {
+  background: #d9d9d9;
+  width: 340px;
+  height: 225px;
+  position: absolute;
+  left: 390px;
+  top: 1910px;
+}
+.bvoc-image {
+  width: 170px;
+  height: 225px;
+  position: absolute;
+  left: 390px;
+  top: 1910px;
+  object-fit: cover;
+}
+.bvoc-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  position: absolute;
+  left: 605px;
+  top: 1925px;
+  width: 123px;
+  height: 44px;
+}
+.bach-com-text6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 566px;
+  top: 1985px;
+  width: 175px;
+  height: 37px;
+}
+.course-duration-text6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 575px;
+  top: 2035px;
+  width: 145px;
+  height: 63px;
+}
+.know-more-text6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 580px;
+  top: 2095px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon6 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 670px;
+  top: 2085px;
+  object-fit: cover;
+}
+}
+
+
+
+
+
+@media (max-width: 370px) {
+.senior-college-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 55px;
+  top: 125px;
+  width: 413px;
+  height: 61px;
+}
+.senior-introduction-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  position: absolute;
+  left: 95px;
+  top: 365px;
+  width: 239px;
+  height: 52px;
+}
+.intro-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 130px;
+  height: 0px;
+  position: absolute;
+  left: 104px;
+  top: 398px;
+}
+.intro-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 35px;
+  top: 420px;
+  width: 307px;
+  height: 102px;
+}
+.admission-notice-bcom-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  left: 65px;
+  top: 630px;
+  width: 250px;
+  height: 55px;
+}
+.admission-notice-bcom-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 205px;
+  height: 0px;
+  position: absolute;
+  left: 77px;
+  top: 675px;
+}
+.bcom-info {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 35px;
+  top: 700px;
+  width: 305px;
+  height: 113px;
+}
+.admission-notice-bba-ib-ca-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 50px;
+  top: 915px;
+  width: 308px;
+  height: 60px;
+}
+.admission-notice-bba-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 245px;
+  height: 0px;
+  position: absolute;
+  left: 62px;
+  top: 954px;
+}
+.bba-info {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 35px;
+  top: 980px;
+  width: 305px;
+  height: 169px;
+}
+.ug-courses-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  left: 55px;
+  top: 1275px;
+  width: 450px;
+  height: 50px;
+}
+.ug-courses-text-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 235px;
+  height: 0px;
+  position: absolute;
+  left: 67px;
+  top: 1301px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+
+.bcom-rect {
+  background: #d9d9d9;
+  width: 300px;
+  height: 180px;
+  position: absolute;
+  left: 25px;
+  top: 1345px;
+}
+.bcom-image {
+  width: 150px;
+  height: 180px;
+  position: absolute;
+  left: 25px;
+  top: 1345px;
+  object-fit: cover;
+}
+.bcom-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  left: 210px;
+  top: 1365px;
+  width: 123px;
+  height: 44px;
+}
+.bach-com-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 207px;
+  top: 1405px;
+  width: 171px;
+  height: 37px;
+}
+.course-duration-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  left: 186px;
+  top: 1450px;
+  width: 128px;
+  height: 63px;
+}
+.know-more-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 200px;
+  top: 1495px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 285px;
+  top: 1490px;
+  object-fit: cover;
+}
+
+
+.bba-rect {
+  background: #d9d9d9;
+  width: 300px;
+  height: 180px;
+  position: absolute;
+  left: 25px;
+  top: 1545px;
+}
+.bba-image {
+  width: 150px;
+  height: 180px;
+  position: absolute;
+  left: 25px;
+  top: 1545px;
+  object-fit: cover;
+}
+.bba-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  left: 210px;
+  top: 1565px;
+  width: 123px;
+  height: 44px;
+}
+.bach-com-text2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 178px;
+  top: 1595px;
+  width: 171px;
+  height: 37px;
+}
+.course-duration-text2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  left: 186px;
+  top: 1640px;
+  width: 128px;
+  height: 63px;
+}
+.know-more-text2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 200px;
+  top: 1690px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon2 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 285px;
+  top: 1685px;
+  object-fit: cover;
+}
+
+
+.bbaib-rect {
+  background: #d9d9d9;
+  width: 300px;
+  height: 180px;
+  position: absolute;
+  left: 25px;
+  top: 1745px;
+}
+.bbaib-image {
+  width: 150px;
+  height: 180px;
+  position: absolute;
+  left: 25px;
+  top: 1745px;
+  object-fit: cover;
+}
+.bbaib-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  left: 195px;
+  top: 1765px;
+  width: 123px;
+  height: 44px;
+}
+.bach-com-text3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  position: absolute;
+  left: 181px;
+  top: 1800px;
+  width: 171px;
+  height: 37px;
+}
+.course-duration-text3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 188px;
+  top: 1855px;
+  width: 128px;
+  height: 63px;
+}
+.know-more-text3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 200px;
+  top: 1895px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon3 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 285px;
+  top: 1890px;
+  object-fit: cover;
+}
+
+
+.bca-rect {
+  background: #d9d9d9;
+  width: 300px;
+  height: 180px;
+  position: absolute;
+  left: 25px;
+  top: 1945px;
+}
+.bca-image {
+  width: 150px;
+  height: 180px;
+  position: absolute;
+  left: 25px;
+  top: 1945px;
+  object-fit: cover;
+}
+.bca-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  left: 190px;
+  top: 1965px;
+  width: 1123px;
+  height: 44px;
+}
+.bach-com-text4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  position: absolute;
+  left: 182px;
+  top: 1995px;
+  width: 171px;
+  height: 37px;
+}
+.course-duration-text4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 188px;
+  top: 2050px;
+  width: 128px;
+  height: 63px;
+}
+.know-more-text4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 200px;
+  top: 2090px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon4 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 285px;
+  top: 2085px;
+  object-fit: cover;
+}
+
+
+.bbaro-rect {
+  background: #d9d9d9;
+  width: 300px;
+  height: 180px;
+  position: absolute;
+  left: 25px;
+  top: 2145px;
+}
+.bbaro-image {
+  width: 150px;
+  height: 180px;
+  position: absolute;
+  left: 25px;
+  top: 2145px;
+  object-fit: cover;
+}
+.bbaro-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  left: 190px;
+  top: 2165px;
+  width: 123px;
+  height: 44px;
+}
+.bach-com-text5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 201px;
+  top: 2195px;
+  width: 171px;
+  height: 37px;
+}
+.course-duration-text5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 190px;
+  top: 2255px;
+  width: 128px;
+  height: 63px;
+}
+.know-more-text5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 200px;
+  top: 2295px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon5 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 285px;
+  top: 2290px;
+  object-fit: cover;
+}
+
+
+.bvoc-rect {
+  background: #d9d9d9;
+  width: 300px;
+  height: 180px;
+  position: absolute;
+  left: 25px;
+  top: 2345px;
+}
+.bvoc-image {
+  width: 150px;
+  height: 180px;
+  position: absolute;
+  left: 25px;
+  top: 2345px;
+  object-fit: cover;
+}
+.bvoc-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  left: 210px;
+  top: 2365px;
+  width: 123px;
+  height: 44px;
+}
+.bach-com-text6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 207px;
+  top: 1405px;
+  width: 171px;
+  height: 37px;
+}
+.bach-com-text6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 180px;
+  top: 2405px;
+  width: 171px;
+  height: 37px;
+}
+.course-duration-text6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 188px;
+  top: 2445px;
+  width: 128px;
+  height: 63px;
+}
+.know-more-text6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 200px;
+  top: 2495px;
+  width: 205px;
+  height: 42px;
+}
+.know-more-icon6 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 285px;
+  top: 2490px;
+  object-fit: cover;
+}
+}

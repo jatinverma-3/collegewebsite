@@ -1,0 +1,575 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.nowrosjee-wadia-container {
+  position: absolute;
+  inset: 0;
+}
+.nowrosjee-wadia-image {
+  background: linear-gradient(
+    to left,
+    rgba(5, 79, 176, 0.6),
+    rgba(5, 79, 176, 0.6)
+  );
+  width: 100vw;
+  height: 512px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.welcome-text {
+  color: #ffff00;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 86px;
+  top: 58px;
+  width: 210px;
+  height: 50px;
+}
+.modern-education-society-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 86px;
+  top: 121px;
+  width: 495px;
+  height: 57px;
+}
+.nowrosjee-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 86px;
+  top: 178px;
+  width: 785px;
+  height: 57px;
+}
+.nowrosjee-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ffff00;
+  border-width: 3px 0 0 0;
+  width: 720px;
+  height: 0px;
+  position: absolute;
+  left: 70px;
+  top: 248px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.badge-container {
+  width: 698px;
+  height: 184px;
+  position: static;
+}
+.badge-1 {
+  width: 216px;
+  height: 184px;
+  position: static;
+}
+.badge-1-image {
+  border-radius: 50%;
+  width: 216px;
+  height: 184px;
+  position: absolute;
+  left: 77px;
+  top: 282px;
+  object-fit: cover;
+}
+.admission-notice-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 137px;
+  top: 344px;
+}
+.badge-2 {
+  width: 216px;
+  height: 184px;
+  position: static;
+}
+.badge-2-image {
+  border-radius: 50%;
+  width: 216px;
+  height: 184px;
+  position: absolute;
+  left: 322px;
+  top: 282px;
+  object-fit: cover;
+}
+.accredited-naac-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 382px;
+  top: 344px;
+}
+.badge-3 {
+  width: 216px;
+  height: 184px;
+  position: static;
+}
+.badge-3-image {
+  border-radius: 50%;
+  width: 216px;
+  height: 184px;
+  position: absolute;
+  left: 559px;
+  top: 282px;
+  object-fit: cover;
+}
+.affliated-sppu-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 625px;
+  top: 344px;
+}
+.about-nowrosjee-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 112px;
+  top: 540px;
+  width: 420px;
+  height: 54px;
+}
+.about-nowrosjee-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 350px;
+  height: 0px;
+  position: absolute;
+  left: 125px;
+  top: 591.47px;
+}
+.college-logo {
+  width: 63px;
+  height: 62px;
+  position: absolute;
+  left: 146px;
+  top: 625px;
+  object-fit: cover;
+}
+.modern-education-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 222px;
+  top: 625px;
+  width: 307px;
+  height: 53px;
+}
+.nowrosjee-info-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 154px;
+  top: 725px;
+  width: 644px;
+  height: 156px;
+}
+.nowrosjee-image {
+  border-radius: 50%;
+  width: 380px;
+  height: 348px;
+  position: absolute;
+  left: 949px;
+  top: 591px;
+  object-fit: cover;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+.welcome-text {
+  color: #ffff00;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 60px;
+  top: 58px;
+  width: 210px;
+  height: 50px;
+}
+.modern-education-society-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 60px;
+  top: 121px;
+  width: 495px;
+  height: 57px;
+}
+.nowrosjee-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  position: absolute;
+  left: 60px;
+  top: 190px;
+  width: 785px;
+  height: 57px;
+}
+.nowrosjee-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ffff00;
+  border-width: 3px 0 0 0;
+  width: 645px;
+  height: 0px;
+  position: absolute;
+  left: 65px;
+  top: 248px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.badge-1-image {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  left: 70px;
+  top: 280px;
+  object-fit: cover;
+}
+.admission-notice-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 115px;
+  top: 350px;
+}
+
+.badge-2-image {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  left: 290px;
+  top: 280px;
+  object-fit: cover;
+}
+.accredited-naac-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 355px;
+  top: 350px;
+}
+
+.badge-3-image {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  left: 510px;
+  top: 280px;
+  object-fit: cover;
+}
+.affliated-sppu-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 562px;
+  top: 350px;
+}
+.about-nowrosjee-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 545px;
+  width: 420px;
+  height: 54px;
+}
+.about-nowrosjee-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 310px;
+  height: 0px;
+  position: absolute;
+  left: 70px;
+  top: 587px;
+}
+.college-logo {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  left: 50px;
+  top: 625px;
+  object-fit: cover;
+}
+.modern-education-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 120px;
+  top: 625px;
+  width: 307px;
+  height: 53px;
+}
+.nowrosjee-info-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 725px;
+  width: 404px;
+  height: 156px;
+}
+.nowrosjee-image {
+  border-radius: 50%;
+  width: 275px;
+  height: 250px;
+  position: absolute;
+  left: 460px;
+  top: 680px;
+  object-fit: cover;
+}
+}
+
+
+
+
+
+@media (max-width: 370px) {
+.welcome-text {
+  color: #ffff00;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 80px;
+  top: 58px;
+  width: 210px;
+  height: 50px;
+}
+.modern-education-society-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 121px;
+  width: 295px;
+  height: 57px;
+}
+.nowrosjee-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 40px;
+  top: 210px;
+  width: 285px;
+  height: 57px;
+}
+.nowrosjee-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ffff00;
+  border-width: 3px 0 0 0;
+  width: 250px;
+  height: 0px;
+  position: absolute;
+  left: 54px;
+  top: 284px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+
+.badge-1-image {
+  border-radius: 50%;
+  width: 110px;
+  height: 105px;
+  position: absolute;
+  left: 15px;
+  top: 330px;
+  object-fit: cover;
+}
+.admission-notice-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 35px;
+  top: 370px;
+}
+
+.badge-2-image {
+  border-radius: 50%;
+  width: 110px;
+  height: 105px;
+  position: absolute;
+  left: 127px;
+  top: 330px;
+  object-fit: cover;
+}
+.accredited-naac-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 145px;
+  top: 370px;
+}
+
+.badge-3-image {
+  border-radius: 50%;
+  width: 110px;
+  height: 105px;
+  position: absolute;
+  left: 239px;
+  top: 330px;
+  object-fit: cover;
+}
+.affliated-sppu-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 265px;
+  top: 370px;
+}
+.about-nowrosjee-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 535px;
+  width: 420px;
+  height: 54px;
+}
+.about-nowrosjee-line {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 3px 0 0 0;
+  width: 227px;
+  height: 0px;
+  position: absolute;
+  left: 60px;
+  top: 565px;
+}
+.college-logo {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  left: 25px;
+  top: 590px;
+  object-fit: cover;
+}
+.modern-education-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  position: absolute;
+  left: 80px;
+  top: 595px;
+  width: 307px;
+  height: 53px;
+}
+.nowrosjee-info-text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 30px;
+  top: 660px;
+  width: 300px;
+  height: 156px;
+}
+.nowrosjee-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  left: 70px;
+  top: 820px;
+  object-fit: cover;
+}
+}

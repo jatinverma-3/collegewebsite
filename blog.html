@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with-device-width, initial-scale=1.0" >
+    <title>COLLEGE WEBSITE</title>
+    <link rel="stylesheet" href="style.css"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="dropdown">
+                        <a href="about.html">ABOUT</a>
+                        <div class="dropdown-content">
+                            <a href="history.html">About Us</a>
+                            <a href="faculty-staff.html">Our Team</a>
+                            <a href="privacy-policy.html">Our Privacy Policy</a>
+                        </div>
+                    </li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li class="dropdown">
+                        <a href="#">More</a>
+                        <div class="dropdown-content">
+                            <a href="governance.html">Governance</a>
+                            <a href="iqac.html">IQAC</a>
+                            <a href="placement.html">Placements</a>
+                            <a href="event.html">Events</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+    <h1> Our Certificate & online programs for 2023</h1>
+    
+    </section>
+
+    <!-------blog page content------>
+ <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+<img src="images/certificate.jpg">
+<h2>Our Certificate & online programs for 2023</h2>
+<p>Ness Wadia College of Commerce, situated in the heart of Pune, stands as one of the leading institutions for commerce education in India. Established in 1969, this college has carved a niche for itself by offering quality education that blends academic rigor with practical insights. Affiliated with Savitribai Phule Pune University, the college has earned a reputation for excellence in commerce and related fields.</p>
+    <br>
+    <p>The college offers a wide range of programs, including undergraduate degrees like B.Com (Bachelor of Commerce), BBA (Bachelor of Business Administration), and BCA (Bachelor of Computer Applications), as well as postgraduate courses like M.Com (Master of Commerce). Additionally, it offers professional certification courses in Chartered Accountancy (CA), Company Secretary (CS), and Cost and Management Accountancy (CMA), equipping students for the competitive corporate world.</p>
+<br>
+<p>The campus is well-equipped with modern infrastructure, including digital classrooms, a well-stocked library, sports facilities, and a dedicated placement cell that works tirelessly to provide students with career opportunities. The faculty comprises highly qualified professionals, many of whom are industry experts, ensuring that students receive both theoretical knowledge and practical exposure. </p>
+<br>
+
+<P>In conclusion, Ness Wadia College of Commerce is a beacon of commerce education in Pune, offering a well-rounded, future-ready education that empowers students to excel in the global business landscape.</P>
+<br>
+<p>
+
+</p>
+
+
+<div class="comment-box">
+
+    <h3>Leave a comment</h3>
+    <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+        <textarea rows="5" placeholder="Your comment"></textarea>
+        </textarea>
+
+        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+    </form>
+</div>
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post categories</h3>
+            <div> 
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div> 
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div> 
+                <span>Machine learning</span>
+                <span>15</span>
+            </div>
+            <div> 
+                <span>Computer science</span>
+                <span>34</span>
+            </div>
+            <div> 
+                <span>AutoCad</span>
+                <span>42</span>
+            </div>
+            <div> 
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div> 
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+
+    </div>
+ </section>
+    
+    <!-----------facilities----------->
+
+
+
+<!---------- Footer ----------->
+<section class="Footer">
+    <h4> About Us</h4>
+    <p>Ness Wadia College of Commerce, located in Pune, India, <br> offers a diverse range of undergraduate and postgraduate programs in commerce, <br>focusing on academic excellence and holistic student development.</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-snapchat"></i>
+</div>
+<P>Made With <i class="fa fa-heart"></i> by ANKUSH PRASAD &amp; JATIN VERMA...</P>
+
+</section>
+
+
+    <!----javascript for toggle menu---->
+    <script>
+        var navlinks= document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right ="0"; 
+        }
+        function hidemenu(){
+            navlinks.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,658 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.image {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  border-radius: 0px 0px 100px 0px;
+  width: 1356px;
+  height: 842px;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 421px);
+  object-fit: cover;
+}
+.infinity-image {
+  border-radius: 50%;
+  width: 191px;
+  height: 182px;
+  position: absolute;
+  left: 44px;
+  top: 146px;
+  object-fit: cover;
+}
+.infinity-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InclusiveSans-Regular", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  position: absolute;
+  left: 261px;
+  top: 201px;
+  width: 304px;
+  height: 72px;
+}
+.basketball-container {
+  position: absolute;
+  inset: 0;
+}
+.basketball-info-image-container {
+  background: #ffffff;
+  border-radius: 50px;
+  width: 397px;
+  height: 430px;
+  position: absolute;
+  left: 58px;
+  top: 418px;
+}
+.basketball-image {
+  border-radius: 50px 50px 0px 0px;
+  width: 396px;
+  height: 252px;
+  position: absolute;
+  left: 59px;
+  top: 418px;
+  object-fit: cover;
+}
+.basketball-info {
+  color: #000000;
+  text-align: left;
+  font-family: "Imprima-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 77px;
+  top: 724px;
+  width: 360px;
+  height: 96px;
+}
+.basketball-text-container {
+  background: #d9d9d9;
+  width: 283px;
+  height: 56px;
+  position: absolute;
+  left: 110px;
+  top: 649px;
+}
+.basketball-text {
+  color: #000000;
+  text-align: left;
+  font-family: "HeadlandOne-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 126px;
+  top: 664px;
+  width: 250px;
+  height: 26px;
+}
+.basketball-icon {
+  border-radius: 50%;
+  width: 79px;
+  height: 71px;
+  position: absolute;
+  left: 216px;
+  top: 383px;
+  object-fit: cover;
+}
+.football-container {
+  position: absolute;
+  inset: 0;
+}
+.football-info-image-container {
+  background: #ffffff;
+  border-radius: 50px;
+  width: 397px;
+  height: 430px;
+  position: absolute;
+  left: 508px;
+  top: 418px;
+}
+.football-image {
+  border-radius: 50px 50px 0px 0px;
+  width: 396px;
+  height: 252px;
+  position: absolute;
+  left: 509px;
+  top: 418px;
+  object-fit: cover;
+}
+.football-info {
+  color: #000000;
+  text-align: left;
+  font-family: "Imprima-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 537px;
+  top: 724px;
+  width: 339px;
+  height: 113px;
+}
+.football-text-container {
+  background: #d9d9d9;
+  width: 283px;
+  height: 56px;
+  position: absolute;
+  left: 560px;
+  top: 649px;
+}
+.football-text {
+  color: #000000;
+  text-align: left;
+  font-family: "HeadlandOne-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 576px;
+  top: 664px;
+  width: 250px;
+  height: 26px;
+}
+.football-icon {
+  border-radius: 50%;
+  width: 79px;
+  height: 71px;
+  position: absolute;
+  left: 666px;
+  top: 383px;
+  object-fit: cover;
+}
+.basketball-info-image-container2 {
+  background: #ffffff;
+  border-radius: 50px;
+  width: 397px;
+  height: 430px;
+  position: absolute;
+  left: 945px;
+  top: 418px;
+}
+.image2 {
+  border-radius: 50px 50px 0px 0px;
+  width: 396px;
+  height: 252px;
+  position: absolute;
+  left: 946px;
+  top: 418px;
+  object-fit: cover;
+}
+.basketball-info2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Imprima-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 1007px;
+  top: 724px;
+  width: 271px;
+  height: 74px;
+}
+.basketball-text-container2 {
+  background: #d9d9d9;
+  width: 283px;
+  height: 56px;
+  position: absolute;
+  left: 997px;
+  top: 649px;
+}
+.basketball-text2 {
+  color: #000000;
+  text-align: left;
+  font-family: "HeadlandOne-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 1043px;
+  top: 664px;
+  width: 192px;
+  height: 26px;
+}
+.basketball-icon2 {
+  border-radius: 50%;
+  width: 79px;
+  height: 71px;
+  position: absolute;
+  left: 1103px;
+  top: 383px;
+  object-fit: cover;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+.image {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  border-radius: 0px 0px 100px 0px;
+  width: 745px;
+  height: 800px;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 421px);
+  object-fit: cover;
+}
+.infinity-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 40px;
+  top: 145px;
+  object-fit: cover;
+}
+.infinity-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InclusiveSans-Regular", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  position: absolute;
+  left: 235px;
+  top: 175px;
+  width: 304px;
+  height: 72px;
+}
+.basketball-info-image-container {
+  background: #ffffff;
+  border-radius: 50px;
+  width: 230px;
+  height: 260px;
+  position: absolute;
+  left: 20px;
+  top: 418px;
+}
+.basketball-image {
+  border-radius: 50px 50px 0px 0px;
+  width: 230px;
+  height: 115px;
+  position: absolute;
+  left: 20px;
+  top: 418px;
+  object-fit: cover;
+}
+.basketball-text-container {
+  background: #d9d9d9;
+  width: 185px;
+  height: 56px;
+  position: absolute;
+  left: 43px;
+  top: 505px;
+}
+.basketball-text {
+  color: #000000;
+  text-align: left;
+  font-family: "HeadlandOne-Regular", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  position: absolute;
+  left: 49px;
+  top: 522px;
+  width: 250px;
+  height: 26px;
+}
+.basketball-info {
+  color: #000000;
+  text-align: left;
+  font-family: "Imprima-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50px;
+  top: 565px;
+  width: 200px;
+  height: 96px;
+}
+.basketball-icon {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 103px;
+  top: 385px;
+  object-fit: cover;
+}
+
+.football-info-image-container {
+  background: #ffffff;
+  border-radius: 50px;
+  width: 230px;
+  height: 260px;
+  position: absolute;
+  left: 260px;
+  top: 418px;
+}
+.football-image {
+  border-radius: 50px 50px 0px 0px;
+  width: 230px;
+  height: 115px;
+  position: absolute;
+  left: 260px;
+  top: 418px;
+  object-fit: cover;
+}
+.football-text-container {
+  background: #d9d9d9;
+  width: 185px;
+  height: 56px;
+  position: absolute;
+  left: 282px;
+  top: 505px;
+}
+.football-text {
+  color: #000000;
+  text-align: left;
+  font-family: "HeadlandOne-Regular", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  position: absolute;
+  left: 297px;
+  top: 522px;
+  width: 250px;
+  height: 26px;
+}
+.football-info {
+  color: #000000;
+  text-align: left;
+  font-family: "Imprima-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 284px;
+  top: 565px;
+  width: 200px;
+  height: 96px;
+}
+.football-icon {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 350px;
+  top: 385px;
+  object-fit: cover;
+}
+
+.basketball-info-image-container2 {
+  background: #ffffff;
+  border-radius: 50px;
+  width: 230px;
+  height: 260px;
+  position: absolute;
+  left: 500px;
+  top: 418px;
+}
+.image2 {
+  border-radius: 50px 50px 0px 0px;
+  width: 230px;
+  height: 115px;
+  position: absolute;
+  left: 500px;
+  top: 418px;
+  object-fit: cover;
+}
+.basketball-text-container2 {
+  background: #d9d9d9;
+  width: 185px;
+  height: 56px;
+  position: absolute;
+  left: 523px;
+  top: 505px;
+}
+.basketball-text2 {
+  color: #000000;
+  text-align: left;
+  font-family: "HeadlandOne-Regular", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  position: absolute;
+  left: 549px;
+  top: 522px;
+  width: 250px;
+  height: 26px;
+}
+.basketball-info2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Imprima-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 522px;
+  top: 575px;
+  width: 200px;
+  height: 96px;
+}
+.basketball-icon2 {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 586px;
+  top: 385px;
+  object-fit: cover;
+}
+}
+
+
+
+@media (max-width: 370px) {
+.image {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  border-radius: 0px 75px 75px 0px;
+  width: 350px;
+  height: 1000px;
+  position: absolute;
+  left: 0px;
+  top: 20px;
+  object-fit: cover;
+}
+.infinity-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InclusiveSans-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 150px;
+  top: 80px;
+  width: 304px;
+  height: 72px;
+}
+
+.infinity-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 40px;
+  top: 55px;
+  object-fit: cover;
+}
+
+.basketball-info-image-container {
+  background: #ffffff;
+  border-radius: 50px;
+  width: 230px;
+  height: 240px;
+  position: absolute;
+  left: 60px;
+  top: 220px;
+}
+.basketball-image {
+  border-radius: 50px 50px 0px 0px;
+  width: 230px;
+  height: 115px;
+  position: absolute;
+  left: 60px;
+  top: 220px;
+  object-fit: cover;
+}
+.basketball-text-container {
+  background: #d9d9d9;
+  width: 185px;
+  height: 45px;
+  position: absolute;
+  left: 82px;
+  top: 312px;
+}
+.basketball-text {
+  color: #000000;
+  text-align: left;
+  font-family: "HeadlandOne-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 98px;
+  top: 325px;
+  width: 250px;
+  height: 26px;
+}
+.basketball-icon {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 147px;
+  top: 190px;
+  object-fit: cover;
+}
+.basketball-info {
+  color: #000000;
+  text-align: left;
+  font-family: "Imprima-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 78px;
+  top: 362px;
+  width: 200px;
+  height: 96px;
+}
+
+.football-info-image-container {
+  background: #ffffff;
+  border-radius: 50px;
+  width: 230px;
+  height: 240px;
+  position: absolute;
+  left: 60px;
+  top: 495px;
+}
+.football-image {
+  border-radius: 50px 50px 0px 0px;
+  width: 230px;
+  height: 115px;
+  position: absolute;
+  left: 60px;
+  top: 495px;
+  object-fit: cover;
+}
+.football-text-container {
+  background: #d9d9d9;
+  width: 185px;
+  height: 45px;
+  position: absolute;
+  left: 82px;
+  top: 587px;
+}
+.football-text {
+  color: #000000;
+  text-align: left;
+  font-family: "HeadlandOne-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 105px;
+  top: 601px;
+  width: 250px;
+  height: 26px;
+}
+.football-icon {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 147px;
+  top: 465px;
+  object-fit: cover;
+}
+.football-info {
+  color: #000000;
+  text-align: left;
+  font-family: "Imprima-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 82px;
+  top: 640px;
+  width: 200px;
+  height: 96px;
+}
+
+.basketball-info-image-container2 {
+  background: #ffffff;
+  border-radius: 50px;
+  width: 230px;
+  height: 240px;
+  position: absolute;
+  left: 60px;
+  top: 770px;
+} 
+.image2 {
+  border-radius: 50px 50px 0px 0px;
+  width: 230px;
+  height: 115px;
+  position: absolute;
+  left: 60px;
+  top: 770px;
+  object-fit: cover;
+}
+.basketball-text-container2 {
+  background: #d9d9d9;
+  width: 185px;
+  height: 45px;
+  position: absolute;
+  left: 82px;
+  top: 862px;
+}
+.basketball-text2 {
+  color: #000000;
+  text-align: left;
+  font-family: "HeadlandOne-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 115px;
+  top: 875px;
+  width: 250px;
+  height: 26px;
+}
+.basketball-icon2 {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 147px;
+  top: 740px;
+  object-fit: cover;
+}
+.basketball-info2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Imprima-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 80px;
+  top: 920px;
+  width: 200px;
+  height: 96px;
+}
+}

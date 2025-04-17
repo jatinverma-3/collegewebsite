@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery.min.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+        .announcement-col {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .announcement-col:hover {
+            transform: scale(1.02);
+        }
+        .announcement-col h2 {
+            font-size: 1.4em;
+            margin: 0;
+            color: #007bff;
+        }
+        .announcement-col p {
+            margin: 10px 0;
+            line-height: 1.5;
+            color: #555;
+        }
+        .announcement-meta {
+            font-size: 0.9em;
+            color: #999;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 600px) {
+            body {
+                margin: 10px;
+            }
+            .announcement-col {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <h1>Announcements</h1> -->
+    <div id="announcements"></div> <!-- Announcements will be displayed here -->
+    
+    <script>
+        $(document).ready(function(){
+            $.ajax({
+                url: "ajax-announcement-page.php",
+                method: "POST",
+                data: { opr: "announcements" },
+                success: function(response) {
+                    $("#announcements").html(response);
+                },
+                error: function(xhr, status, error) {
+                    console.error("AJAX Error: ", status, error);
+                    alert("An error occurred: " + error);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

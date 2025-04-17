@@ -1,0 +1,26 @@
+<?php
+$name = $_post['name'];
+$visitor_email = $_post['email'];
+$subject = $_post['subject'];
+$message = $_post['message'];
+
+$email_form ='jv6216866@gmail.com';
+
+$email_subject = 'new form submission';
+
+$email_body = "user name: $name.\n".
+              "user email: $visitor_email.\n".
+              "subject: $subject.\n".
+              "user message: $message .\n";
+
+$to = 'bgmimobile207@gmail.com';
+
+$headers ="from: $email_form \r\n";
+
+$headers .= "reply-to: $visitor_email \r\n";
+
+
+mail($to,$email_subject,$email_body,$headers);
+
+header("loccation: contact.html);
+?>

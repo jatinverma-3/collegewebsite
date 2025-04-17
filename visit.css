@@ -1,0 +1,162 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h4 {
+    color: #337ab7;
+  }
+  
+  img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Vision and Mission Section */
+  
+  .Vision-and-Mission {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Vision-and-Mission h4 {
+    margin-top: 0;
+  }
+  
+  .Vision-and-Mission p {
+    margin-bottom: 20px;
+  }
+  
+  .Vision-and-Mission ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .Vision-and-Mission li {
+    margin-bottom: 10px;
+  }
+  
+  .Vision-and-Mission li b {
+    font-weight: bold;
+    color: #337ab7;
+  }
+  
+  /* Brief about College Section */
+  
+  .Brief-about-College {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Brief-about-College section {
+    margin-bottom: 20px;
+  }
+  
+  .Brief-about-College section h4 {
+    margin-top: 0;
+  }
+  
+  .Brief-about-College section p {
+    margin-bottom: 20px;
+  }
+  
+  /* Principle Desk Section */
+  
+  .principal-desk {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .principal-desk h4 {
+    margin-top: 0;
+  }
+  
+  .principal-desk p {
+    margin-bottom: 20px;
+  }
+  
+  /* UG and PG Courses Section */
+  
+  .ug-courses, .pg-courses {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ug-courses h4, .pg-courses h4 {
+    margin-top: 0;
+  }
+  
+  .ug-courses ul, .pg-courses ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ug-courses li, .pg-courses li {
+    margin-bottom: 10px;
+  }
+  
+  .ug-courses a, .pg-courses a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .ug-courses a:hover, .pg-courses a:hover {
+    color: #23527c;
+  }
+  
+  /* Autonomous Courses Section */
+  
+  .autonomous-courses {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .autonomous-courses h4 {
+    margin-top: 0;
+  }
+  
+  .autonomous-courses ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .autonomous-courses li {
+    margin-bottom: 10px;
+  }
+  
+  .autonomous-courses a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .autonomous-courses a:hover {
+    color: #23527c;
+  }
